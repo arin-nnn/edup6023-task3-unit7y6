@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Unit 7 Music and Song - Year 6 English</title>
+<script>
+/* ===================== TEACHER: PUT YOUR YOUTUBE LINKS HERE =====================
+   Paste a normal YouTube link between the quote marks, then save.
+     song      = a video of a song
+     interview = a video of an interview
+   Watch both videos yourself before you share the page with pupils.
+   ================================================================================ */
+window.COURSE_LINKS={
+ song:'https://youtu.be/OmxbkKWNhM0?si=N4ehDrd18-3Ydqs0',
+ interview:'https://youtu.be/zlSleMtIqfY?si=m7Jqbp86ochXKiAx'
+};
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700;800&family=Patrick+Hand&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1B365D;--edge:#5B7FAE;--desk:#C9DBEF;--paper:#EEF4FB;--card:#F8FBFE;--rule:#D3E2F3;--pen:#B8342B;--pencil:#4A5F7D;--muted:#46597A;--note:#FFF3C4;--hl:#FFE59A;--t:#E1ECF8;--hero:#2C5A99;--mint:#A8EBD0;--cta:#C4501A;
+--R:#2A64B5;--RL:#DCE9F8;--L:#0F7C78;--LL:#D6EFEC;--S:#B5521A;--SL:#F8E6D6;--W:#6552B8;--WL:#E6E2F6;
+--hand:"Patrick Hand","Segoe Print","Bradley Hand","Comic Sans MS",cursive}
+*{box-sizing:border-box}
+html{font-size:18px}
+body{margin:0;background:var(--desk);color:var(--ink);font-family:Lexend,system-ui,"Segoe UI",sans-serif;line-height:1.7}
+button{font:inherit;cursor:pointer;color:inherit}
+:focus-visible{outline:3px solid #000;outline-offset:2px;box-shadow:0 0 0 6px var(--hl)}
+main:focus,main:focus-visible{outline:none;box-shadow:none}
+.sr{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.c-R{--m:var(--R);--t:var(--RL)}.c-L{--m:var(--L);--t:var(--LL)}.c-S{--m:var(--S);--t:var(--SL)}.c-W{--m:var(--W);--t:var(--WL)}.c-F{--m:var(--ink);--t:#EEF1F6}
+.ic{width:1.3em;height:1.3em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;vertical-align:-.25em;flex:none}
+
+/* page frame: header with Unit 7, content, footer */
+.book{max-width:1000px;margin:1rem auto;background:var(--paper);border:2px solid var(--edge);border-left:14px solid var(--hero);border-radius:18px}
+.top{position:sticky;top:0;z-index:5;background:var(--hero);color:#fff;padding:.5rem 1.4rem;border-radius:0 16px 0 0}
+.unitbtn{background:none;border:0;padding:.1rem .35rem;margin-left:-.35rem;font-size:1.5rem;font-weight:800;display:inline-flex;align-items:center;gap:.5rem;border-radius:10px;color:#fff}
+.unitbtn:hover{text-decoration:underline;text-decoration-thickness:2px}
+footer{border-top:2px solid var(--edge);padding:.7rem 1.4rem;display:flex;flex-wrap:wrap;gap:.3rem 1.8rem;background:#DCE8F6;border-radius:0 0 16px 0}
+footer button{background:none;border:0;padding:.1rem 0;font-weight:500;text-decoration:underline;color:var(--ink)}
+
+/* the exercise-book page */
+main{padding:1.2rem 1.6rem 2rem;outline:none;min-height:60vh}
+@media (max-width:640px){.route li{font-size:.6rem;letter-spacing:-.02em;padding-right:.15rem}.book{margin:.5rem;border-left-width:10px}.top{padding:.4rem 1rem}main{padding:1rem 1rem 1.5rem}footer{padding:.6rem 1rem}}
+h1{font-size:clamp(2.1rem,6.5vw,3.5rem);line-height:1.05;letter-spacing:-.02em;margin:0;font-weight:700}
+h2{font-size:1.5rem;line-height:1.25;margin:1.8rem 0 .4rem;font-weight:700}
+h3{font-size:1.2rem;line-height:1.3;margin:.3rem 0 .4rem;font-weight:700}
+h4{font-size:1rem;margin:1.2rem 0 .3rem;font-weight:700}
+p{margin:.5rem 0}
+.lead{font-size:1.15rem;max-width:34rem}
+.muted{color:var(--muted);font-size:.9rem}
+.hand{font-family:var(--hand);font-size:1.35rem;line-height:1.35}
+
+/* the five-step learning route */
+.route{list-style:none;display:flex;margin:1rem 0 .6rem;padding:0;max-width:34rem}
+.route li{flex:1;position:relative;padding-top:1.35rem;font-size:.8rem;font-weight:500;color:var(--muted);line-height:1.3}
+.route li::before{content:"";position:absolute;top:.15rem;left:0;width:.85rem;height:.85rem;border-radius:50%;border:2px solid var(--edge);background:var(--card);z-index:1}
+.route li::after{content:"";position:absolute;top:.5rem;left:.85rem;right:0;height:2px;background:var(--ink)}
+.route li:last-child::after{display:none}
+.route li.past::before{background:var(--ink)}
+.route li.on{color:var(--ink);font-weight:700}
+.route li.on::before{background:var(--m,var(--ink));transform:scale(1.25)}
+
+/* sheets, contents list */
+.sheet{background:var(--card);border:2px solid var(--edge);border-top:6px solid var(--m,var(--ink));border-radius:10px;padding:.8rem 1.2rem 1rem;margin:1.2rem 0}
+.sheet h2{margin-top:.2rem}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:.5rem 0}
+.chip{background:var(--card);border:2px solid var(--edge);border-radius:10px;padding:.25rem .95rem;font-weight:500;color:var(--ink)}
+.chip.sel{background:var(--hl)}
+.chip.bad{border-style:dashed;border-color:var(--pen);color:var(--pen)}
+.seg{display:flex;gap:5px;max-width:18rem;margin:.4rem 0 .2rem}
+.seg i{flex:1;height:12px;border:2px solid var(--edge);border-radius:2px;background:var(--card)}
+.seg i.d{background:var(--m)}
+.toc{list-style:none;padding:0;margin:.6rem 0}
+.row-btn{display:grid;grid-template-columns:2.4rem 1fr auto;grid-template-areas:"no nm st" "no ds st";gap:0 .9rem;width:100%;text-align:left;background:var(--card);border:2px solid var(--edge);border-left:14px solid var(--m);border-radius:10px;padding:.65rem 1rem;margin:.6rem 0;color:var(--ink)}
+.row-btn:hover{background:var(--t)}
+.row-btn .no{grid-area:no;font-size:2rem;line-height:1.2;font-weight:700;color:var(--m)}
+.row-btn .no .ic{width:1.8rem;height:1.8rem}
+.row-btn .nm{grid-area:nm;font-size:1.25rem;font-weight:700;line-height:1.3}
+.row-btn .nm .ic{color:var(--m);margin-right:.35rem}
+.row-btn .ds{grid-area:ds;color:var(--muted);font-size:.88rem;line-height:1.4}
+.row-btn .stat{grid-area:st;align-self:center;font-family:var(--hand);font-size:1.3rem;color:var(--pen)}
+.row-btn.fin{background:var(--note)}
+.row-btn.fin:hover{background:#FFE770}
+
+/* chapter heading, folder tabs, page */
+.chap{display:flex;align-items:center;gap:.7rem;background:var(--m);color:#fff;padding:.5rem 1rem;border-radius:10px}
+.chap h2{margin:0;color:#fff}
+.chap .ic{width:1.8rem;height:1.8rem}
+.steps{display:flex;flex-wrap:wrap;gap:.25rem;margin:1rem 0 0;border-bottom:2px solid var(--edge)}
+.tab{background:var(--card);border:2px solid var(--edge);border-bottom:0;border-radius:10px 10px 0 0;padding:.2rem .75rem;font-size:.8rem;font-weight:500;margin-bottom:-2px;color:var(--ink)}
+.tab.past{background:var(--t)}
+.tab[aria-current="step"]{background:var(--m);border-color:var(--m);color:#fff;font-weight:700}
+.page{background:var(--card);border:2px solid var(--edge);border-top:0;padding:.8rem 1.2rem 1.5rem;margin-bottom:1rem}
+.nav{display:flex;justify-content:space-between}
+.btn{background:var(--m,var(--ink));color:#fff;border:2px solid var(--m,var(--ink));border-radius:10px;padding:.45rem 1.1rem;font-weight:700;margin:.2rem .35rem .2rem 0}
+.btn:hover:not(:disabled){filter:brightness(.82)}
+.btn.ghost{background:var(--card);color:var(--ink);border-color:var(--ink)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.btn.big{padding:.6rem 1.4rem;font-size:1.05rem}
+.mini{background:var(--card);border:2px solid var(--edge);border-radius:10px;padding:0 .6rem;font-size:.8rem;font-weight:500;margin-left:.3rem}
+
+/* questions */
+.qno{margin:0;font-size:.85rem;font-weight:700;color:var(--m)}
+.ticks{display:flex;gap:5px;margin:.3rem 0 .8rem}
+.ticks i{flex:1;height:8px;border:2px solid var(--edge);border-radius:2px;background:var(--card)}
+.ticks i.f{background:var(--m,var(--ink))}.ticks i.c{background:var(--hl)}
+.q{font-size:1.2rem;margin:.2rem 0 .7rem}
+.opts{counter-reset:o;display:grid;gap:.45rem}
+.opt{text-align:left;background:var(--card);border:2px solid var(--edge);border-radius:10px;padding:.45rem .9rem;font-weight:500}
+.opt::before{counter-increment:o;content:counter(o,lower-alpha) ")";font-weight:700;margin-right:.7rem;color:var(--m)}
+.opt:hover:not(:disabled){background:var(--t)}
+.opt.ok{background:#D6EFEC;border-color:#0F7C78}
+.opt.no{border-style:dashed;border-color:#7A8394;color:var(--muted);text-decoration:line-through}
+
+/* feedback written like a teacher's marking */
+.fb{margin-top:.7rem}
+.fb.good{display:flex;align-items:center;gap:.5rem;font-family:var(--hand);font-size:1.6rem;color:var(--pen);line-height:1.2}
+.fb.good .ic{stroke:var(--pen);stroke-width:3;width:1.8rem;height:1.8rem}
+.fb.hint{font-family:var(--hand);font-size:1.35rem;line-height:1.35;color:var(--pencil);border-left:3px solid #7A8394;padding:.1rem .9rem}
+.fb.remedial{background:var(--note);font-family:var(--hand);font-size:1.3rem;line-height:1.35;padding:.7rem 1rem;border-radius:2px;transform:rotate(-.4deg);margin-top:.9rem}
+.stamp{display:inline-grid;place-items:center;border:3px solid var(--pen);color:var(--pen);border-radius:50%;width:5.4rem;height:5.4rem;font-family:var(--hand);font-size:1.7rem;transform:rotate(-8deg);margin:.2rem 0 .4rem}
+.done{text-align:left}
+
+/* reading */
+.qq{margin:.9rem 0 .1rem;font-weight:700}
+.qtag{display:inline-block;background:var(--m);color:#fff;border-radius:2px;padding:0 .5rem;margin-right:.55rem;font-size:.85rem}
+.aa{margin:.1rem 0 .4rem 2.1rem}
+.lyrics{background:var(--card);border:2px solid var(--edge);border-radius:10px;padding:.4rem 1.1rem .8rem;max-width:30rem}
+.lyrics .lab{display:block;font-size:.85rem;font-weight:700;color:var(--m);margin-top:.7rem}
+.lyrics .ch{margin-left:.8rem;padding-left:.9rem;border-left:3px solid var(--m)}
+.w{cursor:pointer;border-radius:3px;padding:0 1px}
+.w:hover{background:var(--t)}
+.w.hl{background:var(--hl);font-weight:700}
+
+.vocab .vrow{display:grid;grid-template-columns:4.2rem 1fr auto;grid-template-areas:"p w b" ". m m";gap:.1rem .9rem;align-items:center;border-bottom:1px dotted var(--pencil);padding:.55rem 0}
+.vp{grid-area:p}.vrow b{grid-area:w;color:var(--m);font-size:1.05rem}.vrow .vm{grid-area:m;font-size:.9rem}.vrow .vb{grid-area:b}
+@media (max-width:420px){.vocab .vrow{grid-template-columns:3.4rem 1fr;grid-template-areas:"p w" "p b" ". m"}}
+.pic{width:3.6rem;height:3.6rem;fill:none;stroke:var(--m,var(--ink));stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;flex:none;display:block}
+.pic .f{fill:var(--t,#E1ECF8)}
+.chip svg.pic{width:2.2rem;height:2.2rem;margin-right:.5rem}
+.chip.hasp{display:inline-flex;align-items:center;padding:.2rem .95rem .2rem .5rem}
+.ideas{display:flex;flex-wrap:wrap;gap:.9rem 1.4rem;margin:.4rem 0 .8rem}
+.ideas figure{margin:0;text-align:center;font-size:.85rem;font-weight:500}
+.ideas figure svg.pic{margin:0 auto .1rem}
+
+/* games */
+.pool{display:flex;flex-wrap:wrap;gap:.5rem;min-height:3.2rem;background:#E4EEF9;border:2px solid var(--edge);border-radius:10px;padding:.6rem;margin:.6rem 0}
+.bins{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.8rem}
+.bin{background:var(--t);border:2px dashed var(--m);border-radius:10px;padding:.4rem .7rem .6rem;min-height:7rem}
+.bin h4{margin:.1rem 0 .4rem;color:var(--m)}
+.bin .chip{margin:.15rem}
+.verse{background:var(--card);border:2px solid var(--edge);border-radius:10px;padding:.4rem 1.1rem;margin:.6rem 0;font-family:var(--hand);font-size:1.45rem;line-height:1.4}
+.verse p{margin:.35rem 0}
+.blank{min-width:5.5rem;border:0;border-bottom:2px solid var(--m);background:transparent;font-family:var(--hand);font-size:inherit;color:var(--pen);text-align:center;padding:0 .4rem}
+.row{display:flex;flex-wrap:wrap;gap:.4rem .8rem;align-items:center;margin:.4rem 0}
+.row label{min-width:11rem;font-weight:500}
+textarea,select,input[type=time]{font-family:inherit;font-size:1rem;border:2px solid var(--edge);border-radius:10px;padding:.3rem .6rem;color:var(--ink);background:var(--card)}
+textarea{width:100%;font-family:var(--hand);font-size:1.3rem;line-height:1.35}
+.out{background:var(--card);border-left:4px solid var(--m,var(--ink));padding:.4rem 1rem;font-family:var(--hand);font-size:1.4rem;line-height:1.4;margin-top:.7rem}
+.pre{white-space:pre-wrap}
+.clip{display:grid;grid-template-columns:6.5rem auto 1fr;gap:.2rem .9rem;align-items:center;border-bottom:1px dotted var(--pencil);padding:.5rem 0}
+.clip b{font-size:1.05rem}
+@media (max-width:640px){.clip{grid-template-columns:1fr auto}.clip .muted{grid-column:1/-1}}
+.ex{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1rem;margin:.6rem 0 1rem}
+.ex div{border-top:3px solid var(--m);padding-top:.4rem}
+.ex .ic{width:2.3rem;height:2.3rem;color:var(--m)}
+.ex .k{display:block;font-weight:700;color:var(--m);font-size:.9rem;line-height:1.3}
+.ex .s{font-family:var(--hand);font-size:1.45rem;line-height:1.3}
+mark{background:var(--hl);color:var(--ink);padding:0 .2rem}
+.ck label{display:block;margin:.4rem 0;font-weight:500}
+.ck input{width:1.15rem;height:1.15rem;margin-right:.6rem;accent-color:var(--m)}
+.cert{background:var(--card);border:5px double var(--ink);padding:1.2rem 1.5rem;text-align:left;margin:.6rem 0}
+.cert h2{font-size:2.2rem;margin:.2rem 0}
+table{border-collapse:collapse;width:100%;background:var(--card);margin:.5rem 0}
+td,th{border:2px solid var(--edge);padding:.35rem .6rem;text-align:left;vertical-align:top;font-size:.92rem}
+ul{padding-left:1.2rem}
+/* hero */
+.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:1rem;align-items:center;background:var(--hero);color:#fff;border-radius:18px;padding:1.5rem 1.7rem 1.3rem;margin-bottom:1.1rem}
+.hero h1{color:var(--mint);font-size:clamp(2.4rem,7vw,3.9rem);line-height:1;font-weight:800;letter-spacing:-.02em}
+.hero .lead{color:#fff;margin:.9rem 0 .7rem}
+.hero .bars{display:block;height:2px;background:rgba(255,255,255,.65);width:12rem;max-width:100%;margin:.5rem 0}
+.hero .bars+.bars{width:5rem;margin-top:0}
+.cta{background:var(--cta);color:#fff;border:0;border-radius:6px;padding:.6rem 1.4rem;font-weight:700;font-size:1.05rem;margin-top:.5rem}
+.cta:hover{filter:brightness(.9)}
+.hero .art{max-width:400px;justify-self:end}
+.vid a{color:var(--m);font-weight:700}
+@media (max-width:640px){.hero{grid-template-columns:1fr;padding:1.2rem}.hero .art{max-width:270px;justify-self:center}}
+/* gentle movement */
+.art .a-head,.art .a-arm,.art .a-note,.art .a-bub,.art .a-rec,.art .a-tone{transform-box:fill-box}
+.a-head{transform-origin:50% 100%;animation:headbob 3.4s ease-in-out infinite}
+.a-head.d2{animation-delay:-1.7s}
+.a-arm{transform-origin:50% 100%;animation:armsway 2.6s ease-in-out infinite}
+.a-note{animation:notefloat 2.8s ease-in-out infinite}
+.a-note.n2{animation-delay:-1.4s}
+.a-bub{transform-origin:50% 100%;animation:bubpop 3s ease-in-out infinite}
+.a-bub.b2{animation-delay:-1.5s}
+.a-rec{transform-origin:50% 50%;animation:spin 5s linear infinite}
+.a-tone{transform-origin:85% 10%;animation:tonesway 4s ease-in-out infinite}
+.pic{transform-origin:50% 50%;animation:picfloat 3.6s ease-in-out infinite}
+.pic.p-day{animation:spin 16s linear infinite}
+.pic.p-beat{animation:heartbeat 1.2s ease-in-out infinite}
+.pic.p-play{animation:ballbounce 1.5s ease-in-out infinite}
+.ex .ic{animation:picfloat 3.2s ease-in-out infinite}
+@keyframes headbob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-2px) rotate(2.5deg)}}
+@keyframes armsway{0%,100%{transform:rotate(0)}50%{transform:rotate(-5deg)}}
+@keyframes notefloat{0%,100%{transform:translateY(0);opacity:1}50%{transform:translateY(-7px);opacity:.65}}
+@keyframes bubpop{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes tonesway{0%,100%{transform:rotate(0)}50%{transform:rotate(-3deg)}}
+@keyframes picfloat{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-3px) rotate(2deg)}}
+@keyframes heartbeat{0%,100%{transform:scale(1)}15%{transform:scale(1.1)}30%{transform:scale(1)}45%{transform:scale(1.07)}}
+@keyframes ballbounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+/* meet the teacher */
+.book.welcome main{display:block;min-height:0}
+.welc{width:100%}
+.hero.big{padding:2rem 1.7rem}
+.meet{display:grid;grid-template-columns:auto 1fr;gap:1.8rem;align-items:center;background:var(--card);border:2px solid var(--edge);border-radius:18px;padding:1.6rem 1.8rem;margin:1.2rem 0}
+.meet-photo{position:relative;width:14rem}
+.meet-photo img{display:block;width:100%;height:auto;border-radius:16px;border:4px solid var(--hero);box-shadow:8px 8px 0 #A8EBD0;background:#fff}
+.deco{position:absolute;width:3rem;height:3rem;color:var(--cta)}
+.deco.d1{top:-1.3rem;right:-1.4rem}
+.deco.d2{bottom:-1.1rem;left:-1.3rem;width:2.4rem;height:2.4rem;color:#0F7C78}
+.deco .a-note{transform-box:fill-box}
+.meet h2{margin:0;font-size:clamp(1.8rem,5vw,2.6rem);line-height:1.1;font-weight:800;color:var(--ink)}
+.staff{display:block;width:14rem;max-width:100%;height:1.5rem;margin:.4rem 0 .6rem}
+.facts{list-style:none;margin:.4rem 0 0;padding:0;display:grid;gap:.6rem}
+.facts li{display:grid;grid-template-columns:2.5rem 1fr;gap:.8rem;align-items:center}
+.facts .fi{width:2.5rem;height:2.5rem;border-radius:50%;background:var(--t);color:var(--hero);display:grid;place-items:center}
+.facts .fi .ic{width:1.35rem;height:1.35rem}
+.facts .fl{display:block;font-size:.8rem;color:var(--muted);line-height:1.3}
+.facts .fv{display:block;font-weight:700;line-height:1.35}
+.go{text-align:center;margin:1.6rem 0 .6rem}
+.cta.big{font-size:1.15rem;padding:.8rem 1.8rem}
+@media (max-width:700px){.meet{grid-template-columns:1fr;padding:1.4rem 1.1rem;gap:1.6rem;justify-items:center}.meet-photo{width:min(12rem,70%)}.meet-info{width:100%}}
+.who{display:flex;align-items:center;gap:.9rem;margin:1.6rem 0 .2rem;color:var(--hero);font-weight:700;font-size:1.05rem;letter-spacing:.02em}
+.who::before,.who::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,transparent,var(--edge));border-radius:2px}
+.who::after{background:linear-gradient(270deg,transparent,var(--edge))}
+.who span{display:inline-flex;align-items:center;gap:.5rem;text-align:center}
+.who .deco{position:static;width:1.5rem;height:1.5rem;flex:none}
+/* welcome screen */
+.book.welcome .top,.book.welcome footer{display:none}
+.hero.big{grid-template-columns:1fr;text-align:center;padding:2.6rem 1.7rem}
+.hero.big h1{font-size:clamp(2rem,6vw,3.3rem);line-height:1.1}
+.hero.big .bars,.hero.big .lead{margin-left:auto;margin-right:auto}
+/* art */
+.art{display:block;width:100%;height:auto}
+.withart{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;align-items:center;margin:.4rem 0}
+.artcol{flex:none;width:11rem;max-width:100%}
+.artcol.wide{width:15rem}
+/* videos */
+.watch{margin:1.4rem 0}
+.vids{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:1.2rem;margin:.8rem 0}
+.vid{background:var(--card);border:2px solid var(--edge);border-top:6px solid var(--m);border-radius:14px;padding:.8rem 1rem 1rem}
+.vid header{display:flex;align-items:center;gap:.8rem}
+.vid header .art{width:5rem;flex:none}
+.vid h3{margin:0;color:var(--m);font-size:1.3rem}
+.frame{position:relative;aspect-ratio:16/9;background:#BFD3EA;border-radius:10px;overflow:hidden;margin:.7rem 0}
+.frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.frame .empty{display:grid;place-items:center;height:100%;padding:1rem;text-align:center;color:var(--ink)}
+.thumb{position:relative;display:block;width:100%;height:100%;background:#BFD3EA}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb .playbtn{position:absolute;left:50%;top:50%;width:4.2rem;height:3rem;transform:translate(-50%,-50%);background:rgba(27,54,93,.88);border-radius:12px}
+.thumb .playbtn::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-35%,-50%);border-left:1.1rem solid #fff;border-top:.7rem solid transparent;border-bottom:.7rem solid transparent}
+.thumb:hover .playbtn{background:var(--cta)}
+.look{margin:.2rem 0 .6rem;padding-left:1.1rem}
+.look li{margin:.15rem 0}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<a class="sr" href="#main">Skip to content</a>
+<div class="book">
+<header class="top"><button type="button" class="unitbtn" id="homeBtn" aria-label="Unit 7, go to the home page"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h5v-6h4v6h5V10"/></svg>Unit 7</button></header>
+<main id="main" tabindex="-1"></main>
+<footer><button type="button" id="fSafe">Safe &amp; fair</button><button type="button" id="fTeach">Teacher's notes</button><button type="button" id="fSound" aria-pressed="true">Sound on</button></footer>
+</div>
+<div id="live" class="sr" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+'use strict';
+var $=function(s,r){return (r||document).querySelector(s)};
+var $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+var main=$('#main');
+var done={R:false,L:false,W:false,S:false};
+var MOD={R:{name:'Reading'},L:{name:'Listening'},W:{name:'Writing'},S:{name:'Speaking'}};
+var ORDER=['R','L','W','S'];
+var FLOW=['Activate','Present','Practise','Feedback','Reflect'];
+var REFL={};
+var NEXT={R:'L',L:'W',W:'S',S:'final'};
+var NEXTLABEL={R:'Next: Listening',L:'Next: Writing',W:'Next: Speaking',S:'Next: Final quiz'};
+var PRAISE=['Great job!','Well done!','Super!','Excellent!','You are a star!','Brilliant!'];
+var ICONS={
+ R:'<path d="M3 5.5C6 4.3 9 4.5 12 6.2c3-1.7 6-1.9 9-.7V19c-3-1.2-6-1-9 .7-3-1.7-6-1.9-9-.7z"/><path d="M12 6.2v13.5"/>',
+ L:'<path d="M4 16v-4a8 8 0 0 1 16 0v4"/><rect x="3" y="14" width="4" height="7" rx="1.5"/><rect x="17" y="14" width="4" height="7" rx="1.5"/>',
+ W:'<path d="M4 20l1.2-4.5L16.5 4.2l3.3 3.3L8.5 18.8z"/><path d="M14 6.8l3.3 3.3"/>',
+ S:'<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/>',
+ tick:'<path d="M3.5 12.5l5.5 6L20.5 5"/>',
+ star:'<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>',
+ cal:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+ cloud:'<path d="M7 16a4 4 0 0 1-.5-8A5.5 5.5 0 0 1 17 9a3.5 3.5 0 0 1 0 7z"/><path d="M8 19l-1 2M12 19l-1 2M16 19l-1 2"/>',
+ person:'<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.5 3.6-7 8-7s8 2.5 8 7"/>',
+ hash:'<path d="M5 9h14M5 15h14M10 4L8 20M16 4l-2 16"/>',
+ idcard:'<rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M6 16c0-2 6-2 6 0M14 10h4M14 14h4"/>',
+ school:'<path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6M12 5V2"/>',
+ group:'<circle cx="9" cy="9" r="3"/><circle cx="17" cy="10" r="2.5"/><path d="M3 20c0-3.5 2.7-5.5 6-5.5s6 2 6 5.5M15.5 15c3 0 5.5 1.5 5.5 4.5"/>',
+ cap:'<path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.5V16c0 1.5 3 3 6 3s6-1.5 6-3v-4.5M22 9v6"/>'
+};
+var PIC={
+ accordion:'<rect class="f" x="4" y="10" width="9" height="28" rx="2"/><rect class="f" x="35" y="10" width="9" height="28" rx="2"/><path d="M13 12v24M17 14v20M21 12v24M25 14v20M29 12v24M33 14v20"/><circle cx="39.5" cy="18" r="1.3"/><circle cx="39.5" cy="24" r="1.3"/><circle cx="39.5" cy="30" r="1.3"/><path d="M7 17h2M7 23h2M7 29h2"/>',
+ classical:'<ellipse class="f" cx="22" cy="33" rx="10" ry="8"/><ellipse class="f" cx="22" cy="21" rx="7" ry="6"/><path d="M22 15V5M20 5h4M19 33h6"/><path d="M39 44L43 9"/><path d="M36 44h6" />',
+ folk:'<circle class="f" cx="17" cy="31" r="11"/><circle cx="17" cy="31" r="3.5"/><path d="M25 23L41 7M41 7l3-3"/><path d="M12 38l-3 3"/>',
+ pop:'<path class="f" d="M24 5l5.2 11 12 1.6-8.8 8.3 2.2 11.9L24 31.9 13.4 37.8l2.2-11.9L6.8 17.6 18.8 16z"/><path d="M40 6v6M37 9h6M8 40v5M5.5 42.5h5"/>',
+ promote:'<path class="f" d="M8 19v10h8l18 10V9L16 19z"/><path d="M16 29l3 10h5l-3-8"/><path d="M38 18q4 6 0 12M42 14q7 10 0 20"/>',
+ rap:'<circle class="f" cx="29" cy="16" r="9"/><path d="M22 13h14M21.5 18h15"/><path d="M23 23L11 40" stroke-width="5"/>',
+ rhythm:'<path class="f" d="M8 22v14c0 3 7 6 16 6s16-3 16-6V22"/><ellipse class="f" cx="24" cy="22" rx="16" ry="5"/><path d="M14 27l5 11M34 27l-5 11M24 28v14"/><path d="M8 6l14 12M40 6L26 18"/>',
+ tour:'<rect class="f" x="5" y="10" width="38" height="25" rx="4"/><path d="M5 24h38"/><rect x="9" y="14" width="8" height="7" rx="1"/><rect x="20" y="14" width="8" height="7" rx="1"/><rect x="31" y="14" width="8" height="7" rx="1"/><circle class="f" cx="14" cy="38" r="4"/><circle class="f" cx="34" cy="38" r="4"/>',
+ tune:'<circle class="f" cx="13" cy="37" r="5"/><circle class="f" cx="33" cy="33" r="5"/><path d="M18 37V11l20-4v26"/><path d="M18 18l20-4"/>',
+ perform:'<path class="f" d="M5 6h15c-5 12-5 22 0 31H5z"/><path class="f" d="M43 6H28c5 12 5 22 0 31h15z"/><path d="M3 41h42"/><path class="f" d="M24 15l2.2 4.6 5 .7-3.6 3.5.9 5L24 26.4l-4.5 2.4.9-5-3.6-3.5 5-.7z"/>',
+ feet:'<ellipse class="f" cx="15" cy="31" rx="6" ry="10"/><circle cx="9.5" cy="17" r="2"/><circle cx="14" cy="14" r="2"/><circle cx="18.5" cy="14" r="2"/><circle cx="22" cy="17" r="2"/><ellipse class="f" cx="34" cy="35" rx="6" ry="9"/><circle cx="28.5" cy="23" r="2"/><circle cx="33" cy="20" r="2"/><circle cx="37.5" cy="20" r="2"/><circle cx="41" cy="23" r="2"/>',
+ beat:'<path class="f" d="M24 41S6 30 6 18a9 9 0 0 1 18-3 9 9 0 0 1 18 3c0 12-18 23-18 23z"/><path d="M10 25h8l3-7 5 12 3-5h9"/>',
+ play:'<circle class="f" cx="24" cy="24" r="17"/><path d="M24 7v34M9 15c9 6 21 6 30 0M9 33c9-6 21-6 30 0"/>',
+ day:'<circle class="f" cx="24" cy="24" r="8"/><path d="M24 4v6M24 38v6M4 24h6M38 24h6M10 10l4 4M34 34l4 4M38 10l-4 4M14 34l-4 4"/>',
+ moon:'<path class="f" d="M32 6a18 18 0 1 0 10 27A15 15 0 0 1 32 6z"/><path d="M38 8v5M35.5 10.5h5"/>',
+ cat:'<path class="f" d="M11 24L10 7l10 8zM37 24l1-17-10 8z"/><ellipse class="f" cx="24" cy="29" rx="14" ry="12"/><circle cx="18" cy="27" r="1.6"/><circle cx="30" cy="27" r="1.6"/><path d="M22 32h4l-2 2zM5 30h8M5 35l8-2M43 30h-8M43 35l-8-2"/>',
+ rain:'<path class="f" d="M14 28a8 8 0 0 1-1-16 11 11 0 0 1 21 3 7 7 0 0 1 0 13z"/><path d="M16 33l-2 6M24 33l-2 6M32 33l-2 6"/>'
+};
+function pic(n){return '<svg class="pic p-'+n+'" style="animation-delay:-'+(Math.random()*3).toFixed(1)+'s" viewBox="0 0 48 48" aria-hidden="true">'+PIC[n]+'</svg>'}
+function ic(n){return '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true">'+ICONS[n]+'</svg>'}
+
+function ytId(u){u=String(u||'').trim();var m=u.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([A-Za-z0-9_-]{11})/);return m?m[1]:(/^[A-Za-z0-9_-]{11}$/.test(u)?u:'')}
+var LINKS=window.COURSE_LINKS||{};
+
+/* ---------- Flat illustrations (parts move gently) ---------- */
+var NOTE='#FFD27A';
+function notes(c){return '<g class="a-note"><path d="M20 52V30l14-4v22" fill="none" stroke="'+c+'" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="52" r="5" fill="'+c+'"/><circle cx="30" cy="48" r="5" fill="'+c+'"/></g><g class="a-note n2"><path d="M130 44V30l9-2v12" fill="none" stroke="'+c+'" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="126" cy="44" r="4" fill="'+c+'"/><circle cx="135" cy="42" r="4" fill="'+c+'"/></g>'}
+function singerInner(o){var k=o.skin||'#C98B63',h=o.hair||'#2D2A4A',s=o.shirt||'#34B3AA';
+ return (o.tint?'<circle cx="80" cy="86" r="70" fill="'+o.tint+'"/>':'')+
+ '<path d="M30 160c0-32 22-52 50-52s50 20 50 52z" fill="'+s+'"/>'+
+ '<rect x="71" y="92" width="18" height="20" rx="7" fill="'+k+'"/>'+
+ '<g class="a-head"><circle cx="80" cy="72" r="26" fill="'+k+'"/>'+
+ '<path d="M53 72c-4-24 12-38 29-38 17 0 30 12 25 38-5-12-14-17-26-17-12 0-21 6-28 17z" fill="'+h+'"/>'+
+ '<path d="M66 71q4-4 8 0M82 71q4-4 8 0" fill="none" stroke="#2A2040" stroke-width="2.4" stroke-linecap="round"/>'+
+ '<ellipse cx="76" cy="85" rx="5.5" ry="6.5" fill="#7A2E3A"/>'+
+ '<circle cx="62" cy="80" r="4.5" fill="#F08A8A" opacity=".45"/><circle cx="98" cy="80" r="4.5" fill="#F08A8A" opacity=".45"/></g>'+
+ '<g class="a-arm"><path d="M104 142q14-8 8-34" fill="none" stroke="'+s+'" stroke-width="13" stroke-linecap="round"/>'+
+ '<circle cx="111" cy="106" r="6.5" fill="'+k+'"/>'+
+ '<path d="M109 104l-9-9" stroke="#33415C" stroke-width="7" stroke-linecap="round"/>'+
+ '<circle cx="96" cy="91" r="8" fill="#9FB4D3" stroke="#33415C" stroke-width="2"/></g>'+
+ notes(o.note||NOTE)}
+function singerSvg(o){o=o||{};return '<svg class="art" viewBox="0 0 160 160" aria-hidden="true" focusable="false">'+singerInner(o)+'</svg>'}
+function listenerSvg(o){o=o||{};var k=o.skin||'#E4A87C',h=o.hair||'#3A2A22',s=o.shirt||'#E0873F';
+ return '<svg class="art" viewBox="0 0 160 160" aria-hidden="true" focusable="false">'+
+ '<circle cx="80" cy="86" r="70" fill="'+(o.tint||'#DCE9F8')+'"/>'+
+ '<path d="M30 160c0-32 22-52 50-52s50 20 50 52z" fill="'+s+'"/>'+
+ '<rect x="71" y="92" width="18" height="20" rx="7" fill="'+k+'"/>'+
+ '<g class="a-head"><circle cx="80" cy="76" r="26" fill="'+k+'"/>'+
+ '<path d="M54 74c-3-24 10-38 27-38 17 0 29 12 25 38-6-12-14-17-26-17-12 0-19 6-26 17z" fill="'+h+'"/>'+
+ '<path d="M66 78q4-5 9 0M85 78q4-5 9 0" fill="none" stroke="#2A2040" stroke-width="2.4" stroke-linecap="round"/>'+
+ '<path d="M72 90q8 7 16 0" fill="none" stroke="#7A2E3A" stroke-width="2.6" stroke-linecap="round"/>'+
+ '<circle cx="62" cy="84" r="4.5" fill="#F08A8A" opacity=".45"/><circle cx="98" cy="84" r="4.5" fill="#F08A8A" opacity=".45"/>'+
+ '<path d="M52 76c0-36 56-36 56 0" fill="none" stroke="#1B365D" stroke-width="5" stroke-linecap="round"/>'+
+ '<rect x="45" y="68" width="13" height="24" rx="6" fill="#E8743B" stroke="#1B365D" stroke-width="2"/><rect x="102" y="68" width="13" height="24" rx="6" fill="#E8743B" stroke="#1B365D" stroke-width="2"/></g>'+
+ notes(o.note||'#1B365D')+'</svg>'}
+function interviewSvg(){
+ return '<svg class="art" viewBox="0 0 240 170" aria-hidden="true" focusable="false">'+
+ '<path d="M16 170c0-28 18-46 44-46s44 18 44 46z" fill="#2C5A99"/>'+
+ '<rect x="52" y="104" width="16" height="18" rx="6" fill="#E4A87C"/>'+
+ '<g class="a-head"><circle cx="60" cy="86" r="23" fill="#E4A87C"/>'+
+ '<path d="M37 84c-2-22 10-34 25-34 15 0 25 11 22 33-5-10-12-15-23-15-10 0-18 5-24 16z" fill="#3A2A22"/>'+
+ '<circle cx="53" cy="87" r="2.2" fill="#2A2040"/><circle cx="68" cy="87" r="2.2" fill="#2A2040"/><path d="M54 96q6 5 12 0" fill="none" stroke="#2A2040" stroke-width="2.2" stroke-linecap="round"/></g>'+
+ '<g class="a-arm"><path d="M88 152q18-6 26-26" fill="none" stroke="#2C5A99" stroke-width="12" stroke-linecap="round"/><circle cx="115" cy="122" r="6" fill="#E4A87C"/>'+
+ '<path d="M117 120l13-12" stroke="#33415C" stroke-width="7" stroke-linecap="round"/><circle cx="134" cy="104" r="8" fill="#9FB4D3" stroke="#33415C" stroke-width="2"/></g>'+
+ '<path d="M136 170c0-28 18-46 44-46s44 18 44 46z" fill="#E0873F"/>'+
+ '<rect x="172" y="104" width="16" height="18" rx="6" fill="#B97A55"/>'+
+ '<g class="a-head d2"><circle cx="180" cy="86" r="23" fill="#B97A55"/>'+
+ '<path d="M157 86c-2-23 10-35 25-35 15 0 25 12 22 34-5-11-12-16-23-16-10 0-18 6-24 17z" fill="#1F1A2E"/>'+
+ '<circle cx="173" cy="87" r="2.2" fill="#2A2040"/><circle cx="188" cy="87" r="2.2" fill="#2A2040"/><path d="M174 96q6 5 12 0" fill="none" stroke="#2A2040" stroke-width="2.2" stroke-linecap="round"/></g>'+
+ '<g class="a-bub"><rect x="16" y="8" width="52" height="32" rx="11" fill="#F8FBFE" stroke="#5B7FAE" stroke-width="2.5"/><path d="M38 40l-5 12 15-12z" fill="#F8FBFE" stroke="#5B7FAE" stroke-width="2.5" stroke-linejoin="round"/><rect x="34" y="37" width="16" height="5" fill="#F8FBFE"/>'+
+ '<text x="42" y="31" text-anchor="middle" font-family="Lexend,Arial,sans-serif" font-weight="800" font-size="19" fill="#2C5A99">Q</text></g>'+
+ '<g class="a-bub b2"><rect x="172" y="8" width="52" height="32" rx="11" fill="#F8FBFE" stroke="#5B7FAE" stroke-width="2.5"/><path d="M196 40l5 12-15-12z" fill="#F8FBFE" stroke="#5B7FAE" stroke-width="2.5" stroke-linejoin="round"/><rect x="190" y="37" width="16" height="5" fill="#F8FBFE"/>'+
+ '<text x="198" y="31" text-anchor="middle" font-family="Lexend,Arial,sans-serif" font-weight="800" font-size="19" fill="#0F7C78">A</text></g></svg>'}
+function heroArt(){
+ return '<svg class="art" viewBox="0 0 330 210" aria-hidden="true" focusable="false">'+
+ '<circle cx="165" cy="100" r="92" fill="#3F73B5"/>'+
+ '<g transform="translate(6 14) scale(1.1)">'+singerInner({skin:'#C98B63',hair:'#2D2A4A',shirt:'#34B3AA'})+'</g>'+
+ '<g transform="translate(168 112)">'+
+ '<rect x="0" y="22" width="150" height="66" rx="8" fill="#34B3AA" stroke="#1B365D" stroke-width="3"/>'+
+ '<g class="a-rec"><circle cx="66" cy="56" r="30" fill="#1B365D"/><circle cx="66" cy="56" r="21" fill="none" stroke="#3B5E8F" stroke-width="2"/><path d="M66 34a22 22 0 0 1 17 8" fill="none" stroke="#7F9FCC" stroke-width="2.5" stroke-linecap="round"/><circle cx="66" cy="56" r="12" fill="#E8743B"/><circle cx="66" cy="48" r="2.2" fill="#FFE59A"/><circle cx="66" cy="56" r="2.5" fill="#F8FBFE"/></g>'+
+ '<rect x="112" y="64" width="12" height="12" rx="2" fill="#E5586B"/><rect x="128" y="64" width="12" height="12" rx="2" fill="#E5586B"/>'+
+ '<g class="a-tone"><path d="M126 38L92 56" stroke="#F8FBFE" stroke-width="4" stroke-linecap="round"/><circle cx="126" cy="38" r="6" fill="#F8FBFE" stroke="#1B365D" stroke-width="2"/></g></g></svg>'}
+
+function say(t){$('#live').textContent=t}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function mk(tag,cls,html){var e=document.createElement(tag);if(cls)e.className=cls;if(html!==undefined)e.innerHTML=html;return e}
+function praise(){return PRAISE[Math.floor(Math.random()*PRAISE.length)]}
+function goodHtml(){return ic('tick')+'<span>'+praise()+'</span>'}
+function show(node){main.innerHTML='';main.appendChild(node);try{main.focus({preventScroll:true})}catch(e){}window.scrollTo(0,0)}
+function speak(t){try{speechSynthesis.cancel();var u=new SpeechSynthesisUtterance(t);u.lang='en-GB';u.rate=.85;speechSynthesis.speak(u)}catch(e){say('Speech is not available on this device.')}}
+
+/* ---------- Audio (tunes made in the browser: no copyrighted music) ---------- */
+var ctx;
+function midi(n){return 440*Math.pow(2,(n-69)/12)}
+var CLIPS={
+ happy:{n:[60,64,67,72,67,64,72,76,72,67],d:.16,t:'triangle',g:.25,cap:'A fast, bright tune that jumps up and down.'},
+ calm:{n:[60,64,67,64,62,65,69,65],d:.55,t:'sine',g:.3,cap:'A slow, soft tune with long gentle notes.'},
+ sad:{n:[57,60,64,60,57,55,57],d:.6,t:'sine',g:.3,cap:'A slow tune with low, quiet notes.'},
+ lively:{n:[67,67,72,71,69,67,64,67,69,67],d:.14,t:'triangle',g:.25,cap:'A quick, bouncy tune that makes you want to move.'},
+ exciting:{n:[45,45,52,45,45,57,45,52,45,57,60,57],d:.12,t:'sawtooth',g:.12,cap:'A fast, strong beat that builds up.'},
+ romantic:{n:[64,67,71,72,71,67,64,62,60],d:.5,t:'sine',g:.3,cap:'A smooth, slow tune.'},
+ action:{n:[40,40,47,40,43,40,47,50,47,43],d:.13,t:'sawtooth',g:.14,cap:'Fast, low and powerful notes.'},
+ comedy:{n:[60,72,60,72,67,64,67,60],d:.13,t:'square',g:.08,stac:true,cap:'Short, funny, jumping notes.'},
+ scary:{n:[45,46,45,46,44,45,41],d:.45,t:'sawtooth',g:.1,cap:'Low, slow notes that sound strange.'}
+};
+function play(id){
+ try{
+  ctx=ctx||new (window.AudioContext||window.webkitAudioContext)();
+  if(ctx.resume)ctx.resume();
+  var c=CLIPS[id],t=ctx.currentTime+.05;
+  c.n.forEach(function(n){
+   var o=ctx.createOscillator(),g=ctx.createGain();
+   o.type=c.t;o.frequency.value=midi(n);
+   g.gain.setValueAtTime(0.0001,t);
+   g.gain.linearRampToValueAtTime(c.g,t+.02);
+   g.gain.exponentialRampToValueAtTime(.001,t+c.d*(c.stac?.6:.95));
+   o.connect(g);g.connect(ctx.destination);o.start(t);o.stop(t+c.d);t+=c.d;
+  });
+  say('Playing the clip. '+c.cap);
+ }catch(e){say('Audio is not available on this device.')}
+}
+
+/* ---------- Little sounds (made in the browser, no sound files) ---------- */
+var sfxOn=true;
+function tone(f,t0,d,type,v){
+ try{
+  ctx=ctx||new (window.AudioContext||window.webkitAudioContext)();
+  if(ctx.resume)ctx.resume();
+  var o=ctx.createOscillator(),g=ctx.createGain(),t=ctx.currentTime+t0;
+  o.type=type;o.frequency.value=f;
+  g.gain.setValueAtTime(0.0001,t);g.gain.linearRampToValueAtTime(v,t+.01);g.gain.exponentialRampToValueAtTime(.0001,t+d);
+  o.connect(g);g.connect(ctx.destination);o.start(t);o.stop(t+d+.02);
+ }catch(e){}
+}
+var SFX={
+ click:[[660,0,.07,'sine',.08]],
+ pick:[[523,0,.09,'triangle',.09]],
+ nav:[[523,0,.08,'sine',.09],[784,.07,.13,'sine',.09]],
+ good:[[523,0,.1,'triangle',.11],[659,.09,.1,'triangle',.11],[784,.18,.2,'triangle',.11]],
+ bad:[[262,0,.12,'sine',.09],[208,.1,.22,'sine',.09]],
+ win:[[523,0,.12,'triangle',.11],[659,.12,.12,'triangle',.11],[784,.24,.12,'triangle',.11],[1047,.36,.32,'triangle',.11]]
+};
+function sfx(n){if(!sfxOn||!SFX[n])return;SFX[n].forEach(function(a){tone(a[0],a[1],a[2],a[3],a[4])})}
+
+/* ---------- Feedback engine ---------- */
+function attempt(fb,ok,st,hint,rem,onOk){
+ if(ok){fb.className='fb good';fb.innerHTML=goodHtml();sfx('good');if(onOk)onOk();}
+ else{
+  st.t++;sfx('bad');
+  if(st.t===1){fb.className='fb hint';fb.innerHTML='Hint: '+hint+' Try again.'}
+  else{fb.className='fb remedial';fb.innerHTML='Mini-lesson: '+rem+' Now try again.'}
+ }
+ say(fb.textContent);
+}
+
+function quiz(box,qs,onDone){
+ var i=0,score=0,tries=0;
+ function draw(){
+  var q=qs[i];tries=0;
+  box.innerHTML='<p class="qno">Question '+(i+1)+' of '+qs.length+'</p><div class="ticks" aria-hidden="true">'+qs.map(function(x,k){return '<i class="'+(k<i?'f':k===i?'c':'')+'"></i>'}).join('')+'</div><h3 class="q">'+q.q+'</h3>'+(q.clip?'<p><button class="btn play" type="button">Play the clip</button></p>':'')+'<div class="opts"></div><div class="fb" role="status"></div><div class="nxt"></div>';
+  if(q.clip)$('.play',box).onclick=function(){play(q.clip)};
+  var o=$('.opts',box);
+  q.o.forEach(function(t,k){var b=mk('button','opt');b.type='button';b.textContent=t;b.onclick=function(){pick(k,b)};o.appendChild(b)});
+ }
+ function pick(k,b){
+  var q=qs[i],fb=$('.fb',box);
+  if(k===q.a){
+   if(tries===0)score++;
+   b.classList.add('ok');
+   $$('.opt',box).forEach(function(x){x.disabled=true});
+   fb.className='fb good';fb.innerHTML=goodHtml();sfx('good');
+   var n=mk('button','btn',i+1<qs.length?'Next question':'See my score');n.type='button';
+   n.onclick=function(){i++;if(i<qs.length)draw();else finish()};
+   $('.nxt',box).appendChild(n);n.focus();
+  }else{
+   tries++;sfx('bad');b.classList.add('no');b.disabled=true;
+   if(tries===1){fb.className='fb hint';fb.innerHTML='Hint: '+q.h+' Try again.'}
+   else{fb.className='fb remedial';fb.innerHTML='Mini-lesson: '+q.r+' Now try again.'}
+  }
+  say(fb.textContent);
+ }
+ function finish(){
+  box.innerHTML='<div class="done"><div class="stamp" aria-hidden="true">'+score+'/'+qs.length+'</div><h3>Checkpoint complete</h3><p>First-try score: <b>'+score+' out of '+qs.length+'</b></p></div><div class="after"></div>';
+  sfx('win');say('Checkpoint complete. You scored '+score+' out of '+qs.length+'.');
+  if(onDone)onDone(score,qs.length,$('.after',box));
+ }
+ draw();
+}
+
+function finishModule(host,key){
+ done[key]=true;
+ host.appendChild(mk('p','fb good',ic('tick')+'<span>'+MOD[key].name+' module finished.</span>'));
+ host.appendChild(mk('p','muted','Next: press <b>Next</b> to write your reflection (optional).'));
+ var b=mk('button','btn big','Back to home');b.type='button';b.onclick=function(){go('home')};
+ host.appendChild(b);b.focus();
+}
+
+/* ---------- Drag / tap sort game ---------- */
+function sortGame(box,cfg){
+ var st={t:0},sel=null,pl=cfg.items.map(function(){return null}),bad={};
+ box.innerHTML='<p class="muted">Press a word, then press the right box. You can also drag it.</p><div class="pool" aria-label="Words to sort"></div><div class="bins"></div><p><button class="btn chk" type="button">Check</button><button class="btn ghost rst" type="button">Start again</button></p><div class="fb" role="status"></div><div class="after"></div>';
+ var pool=$('.pool',box),bins=$('.bins',box),fb=$('.fb',box);
+ function chip(i){
+  var b=mk('button','chip'+(sel===i?' sel':'')+(bad[i]?' bad':''));b.type='button';b.textContent=cfg.items[i].t;b.draggable=true;
+  b.ondragstart=function(e){e.dataTransfer.setData('text/plain',String(i));sel=i};
+  b.onclick=function(){if(pl[i]!==null){pl[i]=null;sel=null;delete bad[i]}else{sel=(sel===i?null:i)}draw()};
+  return b;
+ }
+ function draw(){
+  pool.innerHTML='';
+  cfg.items.forEach(function(x,i){if(pl[i]===null)pool.appendChild(chip(i))});
+  bins.innerHTML='';
+  cfg.bins.forEach(function(bn){
+   var d=mk('div','bin','<h4>'+bn.l+'</h4>');d.tabIndex=0;d.setAttribute('role','group');d.setAttribute('aria-label',bn.l+' box');
+   function put(){if(sel!==null){pl[sel]=bn.id;delete bad[sel];sel=null;draw()}}
+   d.onclick=function(e){if(!e.target.closest('.chip'))put()};
+   d.onkeydown=function(e){if(e.key==='Enter'&&e.target===d)put()};
+   d.ondragover=function(e){e.preventDefault()};
+   d.ondrop=function(e){e.preventDefault();var i=parseInt(e.dataTransfer.getData('text/plain'),10);if(!isNaN(i)){pl[i]=bn.id;delete bad[i];sel=null;draw()}};
+   cfg.items.forEach(function(x,i){if(pl[i]===bn.id)d.appendChild(chip(i))});
+   bins.appendChild(d);
+  });
+ }
+ $('.chk',box).onclick=function(){
+  if(pl.some(function(x){return x===null})){fb.className='fb hint';fb.textContent='Hint: place every word in a box first.';return}
+  var ok=cfg.items.every(function(x,i){return pl[i]===x.b});
+  if(!ok){bad={};cfg.items.forEach(function(x,i){if(pl[i]!==x.b)bad[i]=true})}
+  attempt(fb,ok,st,cfg.h,cfg.r,function(){var a=$('.after',box);a.innerHTML='';if(cfg.ok)cfg.ok(a)});
+  draw();
+ };
+ $('.rst',box).onclick=function(){pl=pl.map(function(){return null});sel=null;bad={};draw();fb.className='fb';fb.textContent=''};
+ draw();
+}
+
+/* ---------- Fill-in-the-blank tiles (lyric builder) ---------- */
+function fillGame(box,cfg){
+ var st={t:0},sel=null,val=cfg.ans.map(function(){return null});
+ box.innerHTML='<p class="muted">Press a word tile, then press a blank. Press a filled blank to take the word back.</p><div class="pool" aria-label="Word tiles"></div><div class="verse"></div><p><button class="btn chk" type="button">Check</button><button class="btn ghost rst" type="button">Start again</button></p><div class="fb" role="status"></div><div class="after"></div>';
+ var pool=$('.pool',box),verse=$('.verse',box),fb=$('.fb',box);
+ function draw(){
+  pool.innerHTML='';
+  cfg.tiles.forEach(function(t,i){
+   if(val.indexOf(i)===-1){var b=mk('button','chip'+(sel===i?' sel':'')+(cfg.pics?' hasp':''));b.type='button';b.innerHTML=(cfg.pics?pic(cfg.pics[t]):'')+esc(t);b.onclick=function(){sel=(sel===i?null:i);draw()};pool.appendChild(b)}
+  });
+  verse.innerHTML='';var bi=0;
+  cfg.lines.forEach(function(line){
+   var p=mk('p');var parts=line.split('___');p.appendChild(document.createTextNode(parts[0]));
+   var k=bi++;var s=mk('button','blank');s.type='button';s.textContent=val[k]===null?'    ':cfg.tiles[val[k]];
+   s.setAttribute('aria-label','Blank '+(k+1)+(val[k]===null?', empty':', '+cfg.tiles[val[k]]));
+   s.onclick=function(){if(val[k]!==null){val[k]=null}else if(sel!==null){val[k]=sel;sel=null}draw()};
+   p.appendChild(s);p.appendChild(document.createTextNode(parts[1]||''));verse.appendChild(p);
+  });
+ }
+ $('.chk',box).onclick=function(){
+  if(val.some(function(x){return x===null})){fb.className='fb hint';fb.textContent='Hint: fill every blank first.';return}
+  var ok=val.every(function(v,k){return cfg.tiles[v]===cfg.ans[k]});
+  attempt(fb,ok,st,cfg.h,cfg.r,function(){var a=$('.after',box);a.innerHTML=cfg.okHtml;});
+ };
+ $('.rst',box).onclick=function(){val=val.map(function(){return null});sel=null;draw();fb.className='fb';fb.textContent=''};
+ draw();
+}
+
+/* ---------- Match game (selects) ---------- */
+function matchGame(box,cfg){
+ var st={t:0};
+ box.innerHTML='<div class="rows"></div><p><button class="btn chk" type="button">Check</button></p><div class="fb" role="status"></div><div class="after"></div>';
+ var rows=$('.rows',box),fb=$('.fb',box),sels=[];
+ cfg.rows.forEach(function(r){
+  var d=mk('div','row');
+  var pb=mk('button','btn play');pb.type='button';pb.textContent='Play '+r.l.toLowerCase();pb.onclick=function(){play(r.clip)};
+  var sl=mk('select');sl.setAttribute('aria-label','Choose the film type for '+r.l);
+  sl.innerHTML='<option value="">Choose</option>'+cfg.opts.map(function(o){return '<option>'+o+'</option>'}).join('');
+  d.appendChild(pb);d.appendChild(sl);rows.appendChild(d);sels.push(sl);
+ });
+ $('.chk',box).onclick=function(){
+  if(sels.some(function(s){return !s.value})){fb.className='fb hint';fb.textContent='Hint: choose an answer for every piece.';return}
+  var ok=cfg.rows.every(function(r,i){return sels[i].value===r.a});
+  attempt(fb,ok,st,cfg.h,cfg.r);
+ };
+}
+
+/* ---------- Helpers ---------- */
+function hlWords(str){return str.split(/(\s+)/).map(function(p){return /^\s+$/.test(p)?p:'<span class="w" role="button" tabindex="0" aria-pressed="false">'+esc(p)+'</span>'}).join('')}
+function wireHl(root){
+ $$('.w',root).forEach(function(w){
+  function t(){var on=w.classList.toggle('hl');w.setAttribute('aria-pressed',on)}
+  w.onclick=t;w.onkeydown=function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t()}};
+ });
+}
+function rhymeHelper(text){
+ var ws=text.split(/\n/).map(function(l){return l.trim().replace(/[^A-Za-z' ]/g,'').split(/\s+/).pop().toLowerCase()}).filter(Boolean);
+ function end(w){return w.length>=3?w.slice(-2):w}
+ var out=[];
+ for(var i=0;i<ws.length;i++)for(var j=i+1;j<ws.length;j++){if(ws[i]!==ws[j]&&end(ws[i])===end(ws[j]))out.push(ws[i]+' and '+ws[j]+' (lines '+(i+1)+' and '+(j+1)+')')}
+ return out.length?'Possible rhymes: '+out.join(', ')+'. Say them aloud to check the sound.':'No rhyming pairs found yet. Try changing the last word of a line.';
+}
+
+/* ---------- Learning flow: Activate (warm-up) and Reflect ---------- */
+var WARM={
+ R:{q:'Quick poll: What do you read most often?',o:['Stories','Song lyrics','Interviews','Comics'],a:'Today you will read an interview and a song. Look for how they are different.'},
+ L:{q:'Quick poll: When do you listen to music?',o:['At home','On the bus','With friends','At school'],a:'Today you will listen for moods. How does each tune make you feel?'},
+ W:{q:'Question: What will you do tomorrow? Write one sentence.',t:1,a:'Good. Look for will and going to in this module. They help us talk about the future.'},
+ S:{q:'Quick poll: How do you feel about speaking English?',o:['Confident','A little shy','Very shy'],aa:['Great! Use that confidence in this module. Record your talk and help a friend with theirs.','That is okay. Many learners feel a little shy. Record your talk, listen back and try again until you like it.','That is fine. Take your time. Practise on your own first. Your recording stays on your device until you decide to share it.']}
+};
+function warmStep(key){
+ return {t:'Warm-up',p:0,r:function(c){
+  var w=WARM[key];
+  c.innerHTML='<p class="muted">Think about what you already know.</p><p class="hand">'+w.q+'</p><div class="wm"></div><div class="out" role="status" hidden></div>';
+  var box=$('.wm',c),out=$('.out',c);
+  function reply(k){var m=(w.aa&&k!==undefined)?w.aa[k]:w.a;out.hidden=false;out.textContent=m;say(m)}
+  if(w.t){
+   box.innerHTML='<label class="sr" for="wt">Your sentence</label><textarea id="wt" rows="2" placeholder="Tomorrow I …"></textarea><p><button class="btn" type="button">Done</button></p>';
+   $('button',box).onclick=reply;
+  }else{
+   box.className='wm chips';
+   w.o.forEach(function(o,k){var b=mk('button','chip');b.type='button';b.textContent=o;b.onclick=function(){$$('.chip',box).forEach(function(x){x.classList.remove('sel')});b.classList.add('sel');reply(k)};box.appendChild(b)});
+  }
+ }};
+}
+function voiceNote(host,max,failMsg){
+ host.innerHTML='<button class="btn" type="button">Record</button><button class="btn ghost" type="button" disabled>Stop</button> <span class="muted" role="timer"></span><p><audio controls hidden aria-label="Your recording"></audio></p><div class="fb" role="status"></div>';
+ var bs=$$('button',host),rb=bs[0],sb=bs[1],tm=$('span',host),au=$('audio',host),fb=$('.fb',host),mr,ch=[],stm,timer,sec=0;
+ function fail(){fb.className='fb hint';fb.textContent=failMsg}
+ function stop(){clearInterval(timer);try{if(mr&&mr.state!=='inactive')mr.stop()}catch(e){}rb.disabled=false;sb.disabled=true}
+ rb.onclick=function(){
+  try{
+   navigator.mediaDevices.getUserMedia({audio:true}).then(function(s){
+    stm=s;mr=new MediaRecorder(s);ch=[];
+    mr.ondataavailable=function(e){ch.push(e.data)};
+    mr.onstop=function(){au.src=URL.createObjectURL(new Blob(ch,{type:mr.mimeType||'audio/webm'}));au.hidden=false;stm.getTracks().forEach(function(t){t.stop()});fb.className='fb good';fb.innerHTML=ic('tick')+'<span>Recorded. Listen back, then record again if you want.</span>'};
+    mr.start();sec=0;rb.disabled=true;sb.disabled=false;
+    timer=setInterval(function(){sec++;tm.textContent=' '+sec+' / '+max+' seconds';if(sec>=max)stop()},1000);
+   }).catch(fail);
+  }catch(e){fail()}
+ };
+ rb.setAttribute('data-nosound','');sb.setAttribute('data-nosound','');
+ sb.onclick=stop;
+}
+function reflectStep(key){
+ return {t:'Reflect',p:4,r:function(c){
+  var sv=REFL[key]||(REFL[key]={l:'',u:'',mood:''});
+  c.innerHTML='<p class="muted">Think about your learning. Your words stay on this page and are not sent anywhere.</p>'+
+  '<label for="rl"><b>What did I learn?</b></label><textarea id="rl" rows="3"></textarea>'+
+  '<label for="ru"><b>What is still unclear?</b></label><textarea id="ru" rows="3"></textarea>'+
+  '<h4>How do I feel about this module?</h4><div class="chips" id="rf"></div>';
+  var tl=$('#rl',c),tu=$('#ru',c);
+  tl.value=sv.l;tu.value=sv.u;
+  tl.oninput=function(){sv.l=tl.value};tu.oninput=function(){sv.u=tu.value};
+  var fe=$('#rf',c);
+  ['Not sure yet','Okay','Confident'].forEach(function(m){
+   var b=mk('button','chip'+(m===sv.mood?' sel':''));b.type='button';b.textContent=m;
+   b.onclick=function(){sv.mood=m;$$('.chip',fe).forEach(function(x){x.classList.remove('sel')});b.classList.add('sel')};fe.appendChild(b);
+  });
+ }};
+}
+
+/* ---------- Views ---------- */
+function moduleView(key,steps){
+ var m=MOD[key],i=0;
+ var wrap=mk('section','mod c-'+key);
+ wrap.innerHTML='<div class="chap">'+ic(key)+'<h2>'+m.name+'</h2></div><ol class="route" aria-label="Learning flow"></ol><nav class="steps" aria-label="Steps"></nav><div class="page"></div><div class="nav"><button type="button" class="btn ghost bk">Back</button><button type="button" class="btn nx">Next</button></div>';
+ var route=$('.route',wrap),nav=$('.steps',wrap),pg=$('.page',wrap),bk=$('.bk',wrap),nx=$('.nx',wrap);
+ function draw(){
+  var p=steps[i].p;
+  route.innerHTML=FLOW.map(function(n,k){return '<li class="'+(k<p?'past':k===p?'on':'')+'"'+(k===p?' aria-current="true"':'')+'>'+n+'</li>'}).join('');
+  nav.innerHTML='';
+  steps.forEach(function(s,k){
+   var b=mk('button','tab'+(k<i?' past':''));b.type='button';b.textContent=(k+1)+'. '+s.t;
+   if(k===i)b.setAttribute('aria-current','step');
+   b.onclick=function(){i=k;draw();window.scrollTo(0,0)};nav.appendChild(b);
+  });
+  pg.innerHTML='';pg.appendChild(mk('h3','',esc(steps[i].t)));
+  var c=mk('div');pg.appendChild(c);steps[i].r(c,key);
+  bk.disabled=(i===0);nx.disabled=false;nx.textContent=(i===steps.length-1)?NEXTLABEL[key]:'Next';
+  say('Step '+(i+1)+' of '+steps.length+': '+steps[i].t);
+ }
+ bk.onclick=function(){i--;draw();window.scrollTo(0,0)};
+ nx.onclick=function(){if(i===steps.length-1){go(NEXT[key]);return}i++;draw();window.scrollTo(0,0)};
+ draw();return wrap;
+}
+
+var ytWaiting=[],ytState=0;
+function withYT(cb){
+ if(window.YT&&window.YT.Player){cb(true);return}
+ ytWaiting.push(cb);
+ if(ytState)return;ytState=1;
+ var prev=window.onYouTubeIframeAPIReady;
+ window.onYouTubeIframeAPIReady=function(){if(prev)try{prev()}catch(e){}ytWaiting.splice(0).forEach(function(f){f(true)})};
+ var sc=document.createElement('script');sc.src='https://www.youtube.com/iframe_api';
+ sc.onerror=function(){ytWaiting.splice(0).forEach(function(f){f(false)})};
+ document.head.appendChild(sc);
+}
+function showThumb(card,id,title){
+ var fr=$('.frame',card);if(!fr)return;
+ fr.innerHTML='<a class="thumb" href="https://www.youtube.com/watch?v='+id+'" target="_blank" rel="noopener" aria-label="Watch '+esc(title)+' on YouTube (opens in a new tab)"><img src="https://i.ytimg.com/vi/'+id+'/hqdefault.jpg" alt="Picture from the video: '+esc(title)+'"><span class="playbtn" aria-hidden="true"></span></a>';
+ var img=$('img',fr);img.onerror=function(){fr.innerHTML='<div class="empty">Press the link below to watch this video on YouTube.</div>'};
+ var n=$('.vnote',card);if(n)n.hidden=false;
+}
+function mountVideo(card,id,title){
+ var fr=$('.frame',card),host=mk('div'),settled=false;
+ fr.appendChild(host);
+ var timer=setTimeout(function(){if(!settled){settled=true;showThumb(card,id,title)}},9000);
+ function fail(){clearTimeout(timer);settled=true;showThumb(card,id,title)}
+ withYT(function(ok){
+  if(!ok){if(!settled)fail();return}
+  try{
+   var vars={rel:0,playsinline:1};
+   if(/^https?:/.test(location.protocol))vars.origin=location.origin;
+   new YT.Player(host,{videoId:id,host:'https://www.youtube-nocookie.com',width:'100%',height:'100%',playerVars:vars,events:{
+    onReady:function(e){settled=true;clearTimeout(timer);try{e.target.getIframe().setAttribute('title',title)}catch(x){}},
+    onError:fail}});
+  }catch(x){fail()}
+ });
+}
+function videoCard(cls,art,title,url,vtitle,looks){
+ var id=ytId(url);
+ var d=mk('article','vid '+cls);
+ d.innerHTML='<header>'+art+'<h3>'+title+'</h3></header><div class="frame">'+
+  (id?'':'<div class="empty">The teacher can add a YouTube link at the top of this file.</div>')+
+  '</div>'+
+  (id?'<p><a href="https://www.youtube.com/watch?v='+id+'" target="_blank" rel="noopener">Open this video on YouTube</a></p>':'');
+ if(id)mountVideo(d,id,vtitle);
+ return d;
+}
+
+function home(){
+ var w=mk('div');
+ var n=ORDER.filter(function(k){return done[k]}).length;
+ w.innerHTML='<section class="hero"><div><h1><span class="sr">Unit 7: </span>Music and Song</h1><p class="lead">Year 6 English. Read, listen, write and speak about music.</p><span class="bars"></span><span class="bars"></span><p><button type="button" class="cta" id="go">Let us begin</button></p></div>'+heroArt()+'</section>'+
+ '<p class="muted">Every module has five steps.</p><ol class="route" aria-label="The five steps in every module"><li>Activate</li><li>Present</li><li>Practise</li><li>Feedback</li><li>Reflect</li></ol>'+
+ '<section class="sheet" aria-labelledby="qs"><h2 id="qs">Quick starter</h2><p class="hand">What music do you like? Press one.</p><div class="chips" id="st"></div><p id="stfb" class="hand" role="status"></p></section>'+
+ '<section class="watch" aria-labelledby="wt"><h2 id="wt">Song or interview? Watch first</h2><p>Watch both videos. Then see if you can tell how they are different.</p><div class="vids" id="vids"></div></section>'+
+ '<h2 id="mm">Choose a module</h2><p class="muted">The numbers show the order we suggest. You can start with any module.</p>'+
+ '<div class="seg" aria-hidden="true" id="sg"></div><p class="muted">You have finished '+n+' of 4 modules.</p><ol class="toc" id="toc" aria-labelledby="mm"></ol>';
+ $('#go',w).onclick=function(){var q=$('#qs',w);q.scrollIntoView({behavior:'smooth',block:'start'});q.setAttribute('tabindex','-1');q.focus({preventScroll:true})};
+ var st=$('#st',w);
+ [['Pop','pop'],['Rap','rap'],['Classical','classical'],['Folk','folk']].forEach(function(x){
+  var b=mk('button','chip');b.type='button';b.textContent=x[0];
+  b.onclick=function(){$$('.chip',st).forEach(function(y){y.classList.remove('sel')});b.classList.add('sel');$('#stfb',w).textContent='Lots of people like '+x[1]+' music. Let us explore it together.';say($('#stfb',w).textContent)};
+  st.appendChild(b);
+ });
+ var vids=$('#vids',w);
+ vids.appendChild(videoCard('c-S',singerSvg({skin:'#C98B63',hair:'#2D2A4A',shirt:'#E0873F',tint:'#F8E6D6',note:'#B5521A'}),'A song',LINKS.song,'Video of a song',['Verses that tell a story','A chorus that comes back again and again','Words that rhyme','A steady beat and a tune']));
+ vids.appendChild(videoCard('c-R','<div class="art" style="width:9rem;flex:none">'+interviewSvg()+'</div>','An interview',LINKS.interview,'Video of an interview',['One person asks the questions','Another person answers them','People talk about their interests','No chorus and no tune']));
+ var sg=$('#sg',w);
+ ORDER.forEach(function(k){sg.appendChild(mk('i',done[k]?'d c-'+k:''))});
+ var toc=$('#toc',w);
+ var desc={R:'An interview, a song and new words',L:'How music makes us feel',W:'Grammar, prefixes and a new verse',S:'Plan, record and check your talk'};
+ ORDER.forEach(function(k,i){
+  var li=mk('li');
+  var b=mk('button','row-btn c-'+k,'<span class="no">'+(i+1)+'</span><span class="nm">'+ic(k)+MOD[k].name+'</span><span class="ds">'+desc[k]+'</span><span class="stat">'+(done[k]?'Finished':'')+'</span>');
+  b.type='button';b.onclick=function(){go(k)};li.appendChild(b);toc.appendChild(li);
+ });
+ var li=mk('li');
+ var f=mk('button','row-btn fin c-F','<span class="no">5</span><span class="nm">Show what I know</span><span class="ds">Ten questions about the whole unit</span><span class="stat">'+(done.F?'Done':'')+'</span>');
+ f.type='button';f.onclick=function(){go('final')};li.appendChild(f);toc.appendChild(li);
+ return w;
+}
+
+var PHOTO='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUEBAQEAwUEBAQGBQUGCA0ICAcHCBALDAkNExAUExIQEhIUFx0ZFBYcFhISGiMaHB4fISEhFBkkJyQgJh0gISD/2wBDAQUGBggHCA8ICA8gFRIVICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wgARCAGxAWgDASIAAhEBAxEB/8QAHAAAAgIDAQEAAAAAAAAAAAAAAAIBAwQFBgcI/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwQF/9oADAMBAAIQAxAAAAH1+bSyotCotCotCotCotCotCotCobmI33Pc6mbkpjW5uXfj2S5DI2Wy3HKFdqajd9cVlppUWhUWhUWhUWhUWhUWhUWgASgAAAAAAAAAGLf55BrYbGmsriC6NUvRZXkmtT29fNPR8W6IbNTZYCWdy3O9F3wAaAAAAAAAAAAAAAAAAAAAAAag0nMNGNTJMRkLoc75fku96HPTyGfYsO3yre7zS75+zP5R61ykLMwnVcpm6z1wHowAAAAAAAAAAAAAAAAAAAAeedp5xmqw2bMNkS06Jd/5vdZZZM61xbOdY2n6a658u6LM43pw9YTU7W+WUsROrzud6L04ANQAAAAAAAAAAAAAAAAAA5fkd5o8al4aDD2XN8u+w2lGRy9lkq0szDzVtlbo/GdjXc+celefbzp5eniRxbs+I63rjMA7ZAAAAAAAAAAAAAAAAAAPOMF4xqQyI1NWjy+Pq32x5JNXuI5fa8+uxfGtx1yJ1Wp1z6TB0e31hOL7XlD0ieX6e+Weg5/dXG+A9OAAAAAAAAAAAAAAAAAImDytqrcainN57l1vytNpOfr7+nzzL1z66vX5nL0bzIxsvOtXi385rPQ7PyTod8O+p5foeXo4703g+v6+PM2+n3O+HQAenmAAAAAAAAAAAAAAAAAAeWrn67GsnXXT5vYuD0FmPRoX3Nc1gYG11ZuszCzZcPV7lZdTsMi3UxcnJeTXa/dazXLbdDz3T9/n7QD0YAAAAAAAAAAAAAAAAAAOH0PV8ljWr2Gk2vn92/zdXtM9TFzObzqjGoza3WVj5mdYJk89L0GXrdprFtduKmLr83XybnreS7X0/MuA75AAAAAAAAAAAAAAAAAANFwnp3mGLzu01+dw92y2GnzMd8jmNrMYer3z6zrbNzfjprX3LS83ucHXWdUuDZE4mVjXluu35bqvV84A65AAAAAAAAAAAAAAAAAADy/1DhMuNvvxfP68jY4WZz9WNqd5yS5eVj7rfPHv32TNaGKdZN7bBnaYsZK2iUzm3zdZs1b2+AA0AAAAAAAAAAAAAAAAAADnOjojyvDz6+W8fP01nD6G819056afYPTrec2Na75y2X54YyW05lqY4xkdJpuy7/OzQPVyAAAAAAAAAAAAAAAAAAAAAwzkdByPZc7TqtumN67OwE5ezf5ej2c6bC1bs7FjFzU1cPeSb2KteU7/wAFv9PD3kpu65AAAAAAAAAAAAAAIJNTzh3J45yR9Fct86457P5voXLfYvGfUsXa05C4uHj5yLrbMvG59cvI0eXnrm13bDMxNs0Xji0Nxupx6vPq553b+dle59b8sCfWR8ydGe8HmfcG0AAAAAAAPIzo/IedkiGKRbFKpi6BWWjt+J2eb60uVZx1hNmEUWWEV2Rkyo725teuza7MfxbueF7ZmSesAkMfJoMTKxr7LbKpjqPT/CZPqw8x9OAAA5o5zw+2oV4aiWgWHiMe6rIK0yaaSHWPZN95v6Xw3WtqZtcywmQt+UK+tFzqMezy7TRHpzYKWO0CtTbWYeRj5VkkMBMxP0J88dCfRpWC/NfbeWDLMUPDBDBCtEYr21FjoxFV9BtPb/nv2/ndtDrx2kw5N9UxTgtbqXcX1PnFcyTHowNCmRFaltD0kZFdlExI0q0SoHrJ5SGFMPSMrDSsjBAkrVD3JcFF9Q1VgY3o/ne+y9mUbz9EZYLaLcKynZ4dy63x30fzXplgnrmEYJFcMe+guZZolZGlWiYIGAMaValZWJZGJAKmSTHzqYMlGIptptK4ZD3jL5DsPPuuJrgx6surcLZafN4PlXX08yRKklSZhicaXHiVJmAmVmmiVHICiK7SGSRxWJFkRLaTKxrwace+KLqbhYaDrPU/C/cOOlhbMXWZ+uz9TN4HufIZdEyv6MCyg0pIRbjDtW9NABIQrVvTxAQQFUqpYr1ljUXEyoTTdSXzXaUXxTDWKwRK1Pr/AJF2+L6DTla/jrGztdtax/DvSPON5ZonpCtlJZHpYdYrdGppiBwCl0YchSSQxpSS6IYx8jGvHFCyt1EycXIJxsmsZsXKBWWH3mjtPd9Xn63hqrcafcx47pWjtmZidFWQdIemSYKnRx67KosaqwpZZqyuYHJIwpsqp7ce8otptLCJJiUFyKLhpiTDyEpjNVoGiZPZE1my5alrOVy86tWe+WCKhikZ1YACp1YZLEK7sXIitlsEauymIIrrdqxbq5EtqsLGVgqsqLLEYeVYXDzsUtuws0GVjuOo889C5s/yX1PxLNGg6yZhqpbHyQZWImAVokmAMPJqkexUFsraGAqtokWi2oHRi5lkVSR5gHZWGqsiMO+tazpVor9f8d9Qzcbznf6BCYbZqpIrsRxmWSICgmAkiIxcrFMnGyMIyHRxgKrdJDFycUsmJL4EJmAciR2WRpiSqu5AysTJE7Xi9hlrVWaZ1QS2JB2moICFZBiIGWZIx8iqJw8rGq2xHGAKh4CixRZRy1YkdZUdkYd62GZWFR0LK7ay3DycaLQampi0CAtVGAJIAhoAAAVoK8bIoqx1YYgCAIqAqcCZAeAGkBnALAFQCwAoUBrwMW8CJAVgCQIYIiQCAUgLK6ALXAYA/8QALRAAAQMCBQMEAgMBAQEAAAAAAQACAwQRBRASEzEgIUEGMDJAFCIjM0I0RFD/2gAIAQEAAQUC2o1tRrajW1GtqNbUa2o1tRrajW1GtqNbUa2o1tRrajW1GtuNbcak/HibLiEakqJHFskhW49BzlcoPe1R1TQo3U0q241txrbjW3GtuNbca241txrbjW3GtuNbca241txrbjW3GtuP6LnNa2oxROlfI5FMVkF4y7gwVv8A8CedkEdTVyVDuUM2poKDT1U9UYkDcfcc4MbV1LqiXoawuVTjFDSKf1DWyJmMYiw0vqSZroZYaqLoo59LvuYjV63HoYztiuKOqX2WlWyw7EZKCWKWOqgyKCpZt2L7VfU7EBzKjZqdikkk6hwmIpmHUrAaOFPoY1Lh0RUmHOCwutlw6p7ObnBLty/arp96qyC5NTL+LT08WtNZYWVlZGIOU9GQJYwVhNXtpw6KV+uD7FZLs0mXg8RAND3uq6mNoa3oCsCq6j7OBacOq/yYfKKoX2l+xi8n6eMrXdiEultPHoaOkZHuK+l0GmmNNUAiSPKN2hw7j6+KPvWlBeWaWMha6eZqCt1ua17aymMEmEVNxxl5pnaqf69Y7XWleAq9/wCrZGNayRiaWlWC7dH6hPngYjUsJe5k8Ye6krGuEkWVCf4/ryHVKUVGAjJLU1DaaQo0LwgySMxzvTJbppV7KSQ2e6RyFO56io2KWmCxCGQNwKp3KfKgP7/XvclecQfopmNaxrSAt1li+Nyc1Nd3jN0U899QTZ2JtQ0Dca9SMbIykd+HiTsqD+z7BUI1PmJqMQfPoT6qZ7pBOyWg3ZiySRkx+VPw8KUWRD5kW1F4aeYRRS1QdGXuGJU9jSyb1GsPH7fXlGmcq+1SMjDWGC4/HLTpKAK0nSflTcSJzdQfC+7Y3JupaU0KWMPjwr9Y1QfD69czRXHmod/I0po7aFoWhSGyKpk/OyDUGK1k9QjRiXmiFqf6+LNtVedeurYo1ZaU9TSguHNOE9XQQCa1WTk5DtXKlFqX6+MN7KI/zMKjcmuRPatqdAgFxYNMDmJzmJ0YtuGOeOQFNdk4py/9qjFovr4q29Eov+pqYU16kls0NM0zwWIS1MkjJXRmWqlYKeolmjfTl5a4seyRa1dEof8AbENyf7FQzcplbTXphydd5sBk21zpTEEVUw6hDKbh2Xhv/Rhsd5fs1DNupnZaccDkcP8A1T6lrV+SU2YFCcoSlfkNTqprV+Qx6kj/AJIx2simC5oo9FP9nFY9NXI3WxhQTVI26qaLdUA0ND4inupSyQ0boJ4Y9VVSGoigoxAy100WycoY9TgLD7OLR3p1INJa9NcuRI1d2Fjda2nBaStLAg1FDJxTAqCO8n2poxLC5pa7lOa6JzHoPXKMV1tPatVQU0SJrStKK4WtNvI4CypWbdP9vFIwyqsraw9hjLHoOTXIWKDEGqyKebJ8qYx0jmtDGvnjp2RSMli+1U1MNJTx4rJW4+nBfJPismvTXpj01wVwtafIpJC90USYwNGrW7GqvXLgmOOoHxyxyx/WfLFEKj1HhNOp/WcYWIYtW4m+N2iQEEFFqKcwFWc1NlITKlfkr8i6JcVHDZNbZTSKWQUlESXFUtdWUZp/V1VGqf1RhMyiqaece/NiVBAJvVOFRKf1lIVUeosWnUkskpXfPDZN3DlZObdWKLU6IrQUwQMDI3kRxBiDU51hEwySY9V66joe1NcY1DitfCofU+JRim9WQvVNiFHVj2cU9R0tAa3GsQrz0FNHRgUqstK0oNWkIRNW0HOZTxsRAQardpP2dPMyioiXSSdHjx5GQc5ppccxGmWHeoqasPV6g9QEO6j00E2xWtFxpVlpVsm/NWyldYRM7+o5rodZ5bxmOy9PY0Zen1Hjf4jOvyrdGGT/AJFFboCaDqAQTnWHyd8WYrLvYmD1O5PI6WuLXYLiQxChyxnE2YZRSSPll6jw1BHI5en57OCOYTBlewkdcxt7zziNlyUUD0ydm8nLxnhGIOw+vY9skckjIosWxGTEq/rdx+yDitbTl4WHzbFew9swmcKR3YJ7xBT4zJsYZ1agE9znMaPY9M4pceqMX3HewUV5EfcZFecPnE9HmFH8SU83Mbbmo/kqccn3sV6L2Xc5O5b7DHOY8kkoodR4/ZyDQMnfJHL09PeHLw3lnwkdZDuY+wjlATnF7swuTxl/ofRKfxG79cnIIhFYPNs4i3jIcs/qkPdgVQ7apcXk/GwbM5DIjsPpFDuPi8ZOTc2u0SU0glgzB/i5LAqv95Men3cR6y7S1n0imp4uIzkeBmVgM25QZXTXdgExGUNqXvMkmRXboP7H6RQyIsQbhec8Am0VnhEdo0EOzMWn2sO6e2Tih7TuL+wUOVymdnI8hHKll2K0G7BkOW8y/wBOLVG/iHVwPb5ce4B7ZDoKHOT+R3B5COR4wyo/Iw8Dtf8AcKJV8wgp+56gj3PsDLgDIdsv9A/t0jJ3drCigjn6elQ+P+mqBeo6jTF1Erwes8jJ2Z5XnyOhybmexBuOjCZNvFB8fLeIOMXmM2K5nLwMj0HM58lXR4GXkdB4bzk4dmmx6GP25mO/hcmcM/SGR+5PmUEe5yPQ5DI5cAcZty8joPA6Hdi03GbvhSya8OPEfGKTfj4OOk/q0dbuG5HJ2dsvPjyOhyHQ8Jpsc/GGSXwjxCLn1NP02V9R6zw3Lyv95kZN4Q6Ch0HhMNxng0l6L/NKFis/5OK9Ejva4LV58N6ShkPacLEGxHfPCZtFYPjPN+JhfRewHd/svCYcnnsOi6PfoGR63DsmHPUY5Y3B7PUc2mLML5OHy9kgIcpx79J6B7JRXBBuFL8cIfu0eMT7+LZBPNk3s0e2ezgv9dJ6Aj1DMqyYbFP+OBTaKNztb8h2Q7nxpVsz1v5HA56TxbMI+1/pwsmm4PFBNt0OQT+5Xj23JvA6b5FeEPaKHyTf1c7iMnMnS1uV8r+0V4HTZWRQ9woclEXGq8bMgE79nZj3D8R1HLz1jMZDIcj4s4TeGdHn2fCf8UM//8QAJxEAAgIBAgYCAgMAAAAAAAAAAAECERADMBITICExQDJBImFQcHH/2gAIAQMBAT8Booooooooo4UUikUjhRRRRRRRRRX8Ck34ORI5DHpyWXvLMI8KE8MlG8vf0o976WakfvEt+NpdjiYnhs/IdvD3tONs8HN71Qu+JPhFqt/R5NSNMlvaSpXhLCGisaytD3ofHCL6EanxHvQ8CGIXRqeB72k+1CGcX6OZ+j/FnWl9b8XTsjK8RlRzRu/OJOicr9CMnEjOxPMtRIlJyH6S1WjnD1W8P136K9ddL9d+mvXWX6iy/wCrP//EACURAAIBAwQBBAMAAAAAAAAAAAABEQIQMSAhMEADEhNBYSJQUf/aAAgBAgEBPwGSSSSWSSSSOpkslnqYq2KqSSSSSSSSeT0saiy2E56LZ7iR7p66WNRalw+Z2Y93oTvS9uV2rfxqVqOZkf0hDtB+IrU55qmZPb+zFkpH44+TBMopzzVZ0MV6clGeVjvFkRZZPHnlYxis9CPGuVlQxEWi6EoXMxiJNib+Nb87GpIjRFqFC56rwQRalS+g9DskULbo1Z0JH0Lo16aFv0njQzxrbptb6F0670bvqVWZQtuqhi62X1mUr56zKcdZ/u//xAA/EAABAgIGCAMGAwcFAQAAAAABAAIDERASICExQQQiMDNAUWGRMlJxEyNCUGKBcqGxFBU0gpKi0SRDU3PB4f/aAAgBAQAGPwLdt7Ldt7Ldt7Ldt7Ldt7Ldt7Ldt7Ldt7Ldt7Ldt7Ldt7Ldt7Ldt7Ldt7Ldt7Ldt7Ldt7Ldt7Ks8MaPRShQG+pCnOXpcvGViViVisV7yC09QFqBvZbtvZbtvZbtvZbtvZbtvZbtvZbtvZbtvZbtvZbtvZbtvZbtvZbtvZbtvZbtvZbtvZbtvbgS5xkAquj/ANRU3OLj12Mwg2L/AFfIK7z/APVrYZN2tV17P0Uxhxpc4yAVb4fhFnoixvv3/TgpQqsFvRfxLj6qWlsD28whFgPrNNn2bjccON9gw6o8XWzWcZNGa9jo5LYDf7rM2+A+IIRoRmDZv8TceLk3xuuFr9kgPqwh4zzU3Tcty1bpvZbsdl4KvotR3dezjXQX/kqzbwbAdlnxbj8LbhZkPG5dFKzNqk4IaK86vwrpYHMXcS94xlIWTEdgFWyyUrddgXoqj/ELBb5uJhwuZnYkm6K3O9y67C9V2i5B+WaDxSHcip8RLytsOjPwbenaQ/Mz2UivpRgOywsM7cRFPWViHorc9ZyDQblisbV5V7wrposeg7ylNeKXN5HiHO5uJprOwF6iRvMbvReNTxPqsxZuWNF61biq5yToDsWUxBxE+qFDdHb4o36KQo8QXiCws30YFTBmi1wV+BNU0u9OLfFHhZqtWBUmMP3TSTEiszDLlUiGIy/eON0uUl7KJe3J9iaNaJUGUlDno5cWmc79f1TojXOhxS6YYL2r3kCR5tKvbJe2bmob+lDzxERvJxoe8Ym4INFGC3a8Cvs3LwLlSWOwKjQDix1Dz14iIPvRDheQVjwLj/yMonzPENd5moKOesrUhs4P3oZxEJ3qKI/47NUYlTONGNE05htQPvQ0chxFbymjSR9Vn2j8MlNt6Pu5NUiCpshOctaGWlV81VNmH0BTW9eJiM5toi9QDYllYwWFM24qRsOdyai85Dins5FNidKtnFdF4lKssVc5Xq4qsLHqVPzX8VW84tTa6RTfaMEwMkwOZeFKpDlzRYGMmmFmWI5oMaagnM80ADOxJBozQHFNiAeA0VxhnZ6LVWtcguawszVfy8W6GfiCLTiFI4LpkbNyvCvCvs9FJNGePGVh8YnQWOXMbO+4K5e3jTqNxTYkN1ZjhMHi36RHfVhsvJTo8QybF1A3kMqZHHkps7bCq1T/ADokhorDqs8XqvYR5u0Y/wBiESG8PYcCOHnEiNYPqMlL9p9oeUMTUtG0NzjzeZIHSImqMGNuATXjIzQcM76OqvuKvEjYxVyl+Wa1uyvUgnx35C71Rc68mj/TaQ+H0GClpejNijzQ7itaK6CfrapwYzIn4TwHvdLhN/mWpEdG/A1EaNoYHV7l/FGGOUMSU4j3PP1GdmGcxq2OYse9dWPJXN9mPzVwomqxTdEZ4Yd7vWzNTa4tPS5e60uK3+ZCu5kUfU1S0mAWdWXr3GkMf0nfsjBhe/j8hg31XvY5azyMuFqZsRYH81nBXIggXKdUTsVRgnxn5BOivxcZnZTBvQDY5c0fC+9CFG9xFPPA23aDoL78IkQfoNpDiZTkbbrFymoOjg/UdsNB0p03f7bjn0snQtFd79w1neQf520N+cpWnS52ZDEqK5pmG6g2wcDIhAuPvmXP/wA0mJcYrrobeqdFiOrPcZknbRIB/ELRM86ZUR458MFv5qZtz2DYvwG546IPYZtdeCnRIjqrWiZKdHNzMGN5DY40cldTCflORtH1sOeclB0b4oprOt81LLY/u+M7/rJ/Rfu3R3ao3p/82kypWIcTmLJ9bEHR8vE5OaDqwhUsyO0D2GRF81MmZOy6W4kHymex0nTn4NF32RecXGfGSttGT9WyKXOzwCh6MMYuPpsJ8Y14yM014zE7AU6IMEc5lezB1YIq8bNSthmcM1bcfSX+GC1Oe7FxnsOnDTFt8HzCdqaEL4o7pn0tX4UVRns5bWqbUKLydfYPrRLncnAeCFqC3NT4iduG7OUjT96HRT8DSVM48FOmW0lajQTznZbo4+M3+nBgcK36xKg0xOTTK3PaT4WFE8rgpo0OdyCfE8xtS+RFQn820BRXTvIqjgwOBnag9BKgKBoo/GbU8tqeHfD8r6Yzx4WmoPtZqDPbT4d0I4RB+dEWPnK71tT+RSpZEbiDNMcMHKBoo/GbPQbaXEwOlyi33M1B9rEhn8llQVE+gzTn8zOmamdueGnTpgni0SsVfk8udBGRpmp/LJcAeJdwhs//xAApEAACAgIBAwMFAAMBAAAAAAAAAREhEDFBUWFxIIHxQJGhscHR4fAw/9oACAEBAAE/IfhZ8LPhZ8LPhZ8LPhZ8LPhZ8LPhZ8LPhZ8LPhZ8JPjJ8YPceEFW/CP9H4Ov8FpT5FB/Y533h9f9xhK+5SJI7WEVjb6OJ8ZPjB8YPjB8YPjB8YPjB8YPjB8YPjB8YPjB8YPjB8Y+hSh3Gzciul+kTrDljzhZmigRzGCtEWJpshoQ9J/8sTTUp/Xs1LSXLEheF0aRLCj0b2JdDNnQEQKqKGasdJ7/AOFC1ulrT+tXUSltjS9JXQRtkCcWTNscTpNt6Q9kp2tD8j99gJLJkvuYuc1JhoWQ6TgtYiUaZBdduj+tm7XZcuhZiHrCGyCktuCVVuKb9X2JySNSLEWx3l7i5a00aeEGuPsVD8Xd3+rsiPberHuJEK2bDe0IYGs7fouw+/LQRxe8pNNK9g0uET1m6m5l7C5LEOdN1JWerErLUM636Kcr6qCXIcbELUiTjXIpOnhdu4xpaCIizRYuhoZFEok+zJvch8diBytsPQqrqX98v6lzZH3B6OIFoizKRGxwuWx3j2OiFtVoXjCRAhEh6ENrnJKVTCZRa2WoMeEsukryvqYlnsf2+T9hWPhdSmhLG/8AQLVq2CZwLyLBMhFoSF5sSJvgvYaHMraFaGNSbmHSU01P1Haql/TVCUfqPSixtNxCCECQkIRI9qpocHFtMn3f4hqUDEJP0X4fUf8Ab0UccLT3Ljv7TgiTINPX7mmX7lMppjwQidEhbEjsyPP9hUm+GacO7ui0NNY6E/dP4+ol7/cGyGFE6FyYlMpRU0mixVmaoDoYIcN0clko4hNiwhtY8lpLuxbu8QI7PqISFy6t9USYsrxwOl4Oh7QX070xyeuWCG1XUW9KaH16xCXCSgecIn6DuVV3kQrSexCI6HhCuA1XFE6FJOqOu/0Kuk7CajTUD1Sj/ECznho6H/V3+nemKq6HAteETVNX2B283gmw90hL2NsIMX7dheZC6KHJtzzI8oshCpiFG0IEQG+kpGjVXUf+hZDEs8ttdn+R3IFGLoUL7Pn2EpuDFo7uzFyk0G6PYyX1HSBD8nHwN0r92zjQFeYvEhRDl4Qi6h5GyhCwGpgiAsGXgR2gkYhBe9lIvKUQSc71djkX7B9QtVpuHuahMLXuDpf0mZILaQ2HC2QIHlmmMJojjGbCosI00ifKYhG9U/5/PqIW7nlM2wTMelPZD2aiLEEjbJl0IkTYoTIybomwUQ0DyNInaX9HLIj2n6jVuf6/wW0fd/6RBjRAsLaZathKZYhEh3ljEDTQ3C1aI0UxtRiYdr/7o4O1YvqO7Fv+f0WxIf6X+BoIUUEs5Hzk0KLh0QpKum9sWBf4nomvognJQengnWxS5HUmdFu8f0RPygtfURBtiXkkcGRHOBNpC8JyIEKiExbYFhf4jrWngeFoaVBxEohHaaJ1TJbOplXdRn/AB/UxJTW9LwMX6bN+0WwkkPYctOwnXKQsmbifeLf7Cdy+RpWDTnkfH3SYwHhE55vYiIW31RC+KX7qv8EultWSLuXOgjD9D9dEYoxtJlkcKgmFKPb6IkSVxhNIQU7tKKp915LoMeQttiVJFNA9DN02xyZbQhSzSUfVR6N2+H/uC5I9Fh3hTsbDbHIu/ExUvhjq2dIFIk+Ro9fgkc0XQ1xTSIUPbmTrKkrz9WhymIXTDIa7kJGiW2RB24NW2KaG1UjyTJNSF95HXSvcgcjQSKGGiF7LsQDWCtb6xcepmLuqkmlJBAk/NHocBYioRAjoJXAlKCbHcFRdwIySOw6WJU27E7kCWmvq0EFJH68jMVpOuIfklUqmUjR3dQxtiF8PEurHFigtieGbwk0Pff8Awkeh0R10mD3/AKC09nxtuq7dhX6ZblP6aUd85I/YbNlXyCqfCCafZFwK/mXUc+Q1yNLCJCwh3pNMaXEOrwx6C+/8G1kRFsaB9QM5ym+FjhEl/wAvqJSUII3MZdDqdeA/qTLfcgYHO7ZLezoiOUWfi0NUucVL7imsNSoWT/7Suo3OG2oN/gVW3Rn7ZEB8SvwiXllwC09+n9jjcCl4EoOCYnTL2IlSMISGpI1DXmJdV5GNIa6c3oWmxulu/CPfwPb/AAKotdt8sUrgmm0biom0A4IylOKjqO++j/wOY+7P2KxE8j90Pk/8uh9tiA3GoQ+wlf8AjGoum/7z+EA4hTf5HuY2PDGhHCS8RhNzul/TJkjxLRO2GGFQIcDOPeQNUkQDDsgRMJTeWPwl4uPQ1LJj/wARUHlYWWkmmqZ4UWIoVUlK/s/XHmSz1/1bG5eYGhoSWl1IHn/TxMQDw7EEKR/wo7Ni94lyIg2ZNIcOW2rxSJYRJxhq2u5twWLDOyGHFrX3O4r9HRE1yf0b2LMDQ1ilQxFmiehMjrL5RwGsMW7HnwEO7KCiTuHW7jRFwxTqESVoQ2LGii98dVlYbiYlNcCHlK+/+WZXWc56vCGanW+bHhIjEXgTb6m4qINoNEvOn6GWQhBFil/MchbGmBk8uENtuJd4DYdjdvyJytknk2/RR7hCtYUeWIWEKl1Xn/NbFTVIGmhaxs9wkMVaf+3yRCwkLKE0KchDuak+44tPchBkyOG9kyQvZxZzCKOBZb3/ALNEYu2+psCSu74HMH+oX+8bOZE7xI60y7DxCE9NyUNYWi/v8z/EU2wynl8f5itjEJFejYS5xkiQuhVvuGkJYm1JO1oQLjnyexUWdxZYkM7v3ir+CJK5cvtaLCkE87eexTcDZYJ6M6tdkJJaOBCZWWcDXL6RNp9RzeYlt8iOj0mNwMlJiWmgp79RlEZtCYkB3GXZkqCJIwbe9kCBWKWPRQxOS7Cl1h/exYYk2TIbdsbwP0SN5Wzg5kWhCxxhJqyfqIe8rYkJScKl/C3YTjSPHjJoFxC3D3DQR69i3nk6BUjacRMmh7oQ36H6EPXo4y4kiei/ENKUPCUMMasdvCvsLBEpBxzsZJGjoiG7A5an2RKzoDzt/wAzNG3hDESMTqe3psfXCYh+ngeLUd8L0Eo8ryPYP9BwOmNnImVCEoEs6U09iSaY/u5zLg06M5hiIG06aEoJofpkn0r0cC0PZwOKQhoesVoZuieHUbyhuZEyyRoHSa7Noay0/CkiuvbC2eRGh4T0WQkPSkv8PUeEcYlBNsV7OMLKxpkaVBpgeVthk9CR7HTINroO5klOivllw7UO3Cn1NFfbf5/WWM4E5Y9piltvti3ic8Cdiwtmx9KFsW0SDYncDTmZNMC0LqK0ijQtCwNMELLE+uV9wiN2KhHN9W/YtjBK994E2Sy1t9WLDcDEJZrcIZz6eDnJuUVUCaLGFjYE8IejTHkU6ECByEl5FvDEmtIpuJuNSUG5MG0Pwf79DxyQJJbYlEMkcE3h+gNfuYWzQxYczQkW8JUjiJFtLAQxYizcJ/v2Xl2G4xC7D1mYX2F6CKsyzE4ciFgjg2FoQnLwKIFvEesch6zJCeBMSvEpXyJDFhiXnfkU0V1EjLQQMmOnMk7lYvQWx+xWxUvQWTVjcWhuV+yKwxAug1xjka+m3FoQ7Qgb84yjfgLg0P8ABsECOoffAtCzzAyk54Fhd8vQxZGo4NsNfuiw6GmakbCyrDYrQjgqFkcCycpN/g1j4mNu05T+F/RZmzqPANEkkjeODgUsJ1jBvsULCh5mk8+k0s0ExYWTooOVlaOoDvzYrE99Cc0+wf8AafQlYytmwlChYhY4wsMctGlDQmLH5PQ7KMc59B6wsrRxiIBjex44FPfD8BgueSWPe1It7cv0Owyw3o59E4sTOA5IHIpYReEUFTORP0C3nkWJ5Y3Yob4QkhqZE0dU3+Bf30JJNwbHng5JoQn1JvEJlQiZQhZgocnIt4M5zzhPFkJYm0NFgITY3Gf4k1Unez/tOUkhcwTQdbJXBM8FzCsnEKDkZwcPA0E5dsQiTkk1G4Fs5wYWEc+kljtBcecJJSNvZ4UhzTmyZK24JOJbi63JHoKqg5wnHI2iS2rEykhCxI46mIWGwsLCFvHA0ISICZTeaKNBPLg0hCDUPcShHIhYob5JKxZCys4N2IQiX0IdTaEgTplzjkWELKRga6my0NvgSS3oldcJ2I/AEqW3hotkwNuhLPcgj1JQqY1ELLR7Q4OmSNmsJ55EIQmL0tM9VosvmBKkbJrGoaRxhLaGemc44J9bKsNIF6jyRzjkWhbNBCw4Nx8ejS8HI4wti2FrDy+R5Qe8JYLTOD//2gAMAwEAAgADAAAAELDDDDDDDC5e6AQjzDDDDDDDPPPPPPPLxlaB0eud/PPPPPPPPPPPPOHDTL4ZTODNPPPPPPPPPPPPAo8DWUk0XU1PPPPPPPPPPPPBm7d3VUaV83/PPPPPPPPPPPGcbzS+2TiBU/PPPPPPPPPPPGXoOXpjA9MzPPPPPPPPPPPPJCxgAzGgJ4B/PPPPPPPPPPPAr8kyNJ4rkffPPPPPPPPPPPFjFKTcbFoCNPPPPPPPPPPPPHQxUD+3d3Qn/PPPPPPPPPPPOqZHnpOzO0fPPPPPPPPPPPPOKUSpcotTJtPPPPPPPPPNKFouq8C5dMUoNMVPNPPPPAvBAkImvvyJQasAAJPZEPPHpNBntEnGANbkQlXAOFOffPlOMBjsDKZnjp0NZg/IFLyTMLBBAuqn8/lsYFEDvkrZOigqKKODJK8hEJbsAZJJjljuNDFAKLfHDigjn62iHGtnIMiCADKHBKHJmmGGWEcPoCgAANPMNIKHDJLDNsfS88imCKFolCM1BHDGNJHkhqM9BBFOLIHmgQWOEPHAEOOONepmCKICKMAD8GGCHLAPDjIzl8I3hsfd5vwsPNPFLAJAAKH9iliHBZUT/JMAHEACMKEKBAgOBGOOk09zODHIPPIPIIAHIIPPPPI3gvYIQP/EACERAAMAAQQDAQEBAAAAAAAAAAABETEQITBRIEBBYXGB/9oACAEDAQE/EI6I6I6I6I6I6I6I6J6F0C6j8D8h9Q1WUR0R0R0R0R0R0R0R1wJeFQndGqNTnS0exBMyPuMIL9GhKvQL8Nr+6iIWHU49Ej5VjS1PglRKaMSohsIJ953RSCrgcyj/AJpVG6Gpsb1zf4ZUoo3JCVCQpNkOY3FEN4MOVH9kS6LRkUZCFEbqY8qwYBUbsyE9xjbKbMhjyoerpfaCPCKSLdXjsfecqLA4r+Cf6wtmRW1Wa4kG67yobIKSoo0r8jGraJWsdTf3nWB5tgSu2gmXSWlY9d511om1ujMC/Iui2G7uxtZyomiEUo2/o4eDZduB8/AnopzViHr8VzYeD39NtENF6mQxZH39RFoh59VF29dv5xLjQkN3yXoXzmj9W+y9Fp//xAAgEQADAAEFAQEBAQAAAAAAAAAAAREhEDAxQVFAIGFQ/9oACAECAQE/EK9K9K9K9P6FelelejddnSZbsfoQ7E+zoMr0r0r0r0r0r0r0r3Ybg3SH8Wg7lozaoUl327olYbOMhL4JGMswJ74N1o0VHJqaJwoocFKbrlp1BYG7qnBqhD5a3sCG6w58iIgk7LBFwPDg+O6yRngNmqI8GNwc8EJUG2FAzj3WZB4GxfghjAm75CZGNeaGsCED4MBybvM5jQ5DaGXOluiZMF3VwJmln9jhYGk3gVcj50Vkhbr4EqjMHNC9DfQfgoslb831jEhvoY9CUOc73YQTvRpPkajMEGwJvpSjY86GjBSVP4Vmp8lBqsJFN1/hbnVnCKX5rPxP2/wtbRCVZ5IU/jk2kg1WIkovigrqejEy+fItQsnAkz9+RqiSnGCRT5GSNnAhfKmSzfzMUJEXzJcf6qH+f//EACkQAQACAgIBAwQDAQEBAQAAAAEAESExQVFhcYHBkaGx8BBA0eHxMCD/2gAIAQEAAT8Q/WPifrHxP1j4n6x8T9Y+J+sfE/WPifrHxP1j4n6x8T9Y+J+sfE/WPifrHxP1j4n658T9k+I1frfSWgrznPQVa+CVcpjOPkHyktSu9APpSJKYbtze3+q4ppTzlUo4PF3eZyPBH73BHnjPpVRNAy0i+iS79T7T9m+J+zfE/Zvifs3xP2b4n7N8T9m+J+zfE/Zvifs3xP2b4n7N8T9m+J+zfE/Zvifs3x/RJnVroJjoeW3+m36RzvVYfToPBAavp3Pt6uYJiu5urXBMgMnM4vIylHUQCtxkj7EaR7h+ihTIvhWPX8QUBEsR2f36WlqeeABM38VOPz2+fpNhcsoq6XpjDPdSr3pGoX9pS0cJhgQXY6m4RDm4yjLPEyRBGUcMRQMPiazSrny8PH0gYygNI/3UtCcwBLGbKfrPl5hfI9yhmqhhwesS3M6Iwdb6oIvV+KKXDp7EsZwh93v+SkVu0J8SIB9FNu65gmKttlcicMRKX1hk8xwEGI3XrUW4Hza6vR/P9xanI7uA/gfn0iWVvxBiCsoAUJnqKsAjQDavBLiiFvgGj6CKUr6wDYQ2IYhVIYSN/n688KPZK/Mi/wB5gOqcSqknIo7UajvsTj3fn+29bt8lfh/NRXIeVXcF8e8OELCaStQEUoy+YGWHXX2nPbLWF7P2gLSmb31YspVYQPiN8u1UmON8ifaAIz119yF8tFW7R6HmJ/kBLK3ZC7pm8bIlpxklyNfRnn2cwARsSx/srW5lbDVpBy+7ftUBScw4WVtSoGVRKR71vCqYw+WvW4f4G4EKq5StMSUlzPzcaOm0qCCtIhiaQZTLR+dcQd9lG4AuILyjsrUbVfbdP0r+yhwUpxiX1Y4IcBf+QUSEBVjmEKeToDmMJja4B1DlFNdwAVoTjqYNrBXuGb1ClS0URQUBCrrrEciSi1jV+j6M2qqxLIdwYU2QBjPH6cX9IN/2MFD5kCj7/ZE25Ve0oiArvRWRx8PYIccIZWMrZHWOCIYuEUHOUtdH1mkIhRmRm4qjdgGoFRehz/zuGZBPyRAXDA9wK99kV+xB8P8AYbqjPKq+IKHkgUojyqgREbVLz0e+oDlpF6t0exDTU6DNTNrMtYXLKeSJuFqmUzEIF/SHCUYq4dLKtWvEC/wuzv8A5jP0bmXGGD2JL13aPo+P7DX2tfifCbCaEKEZVFKhW/IHB/MFAGlcXCVnbzl9IEWbjBAOszY36Qp2z0xDzUpL6q7gxRcBcUCJpcH3IW4hn4exjfukJz7+2faMtTt92TSXCt8cTMy4A8CPkf67gWIGpU8W2E92FVdZi3CvGALYB9kcjC+yIYmAx88QRJTNiR/yWQqyTuGt8Lp3GCYOHmBhd5lk3FzYJlSLNXmZY3B/hCAq0NVfUlM5PkRv0QnAfR+pE1+rOVfo9pZB2pquszKe09rv8/11ScBKJ0n1N/M2TKJ2oZ0ChwCWPfHpBcAC+KluXyOIZ09MjERRe0JqAqHTDBnF5liuE5vuGrlfmLtQc3BXsOWj8pA7GmgH7mZB3tce06j5lljJXily+v5gKLtYi1lqo1a93f6431Uw0Hi1Rg61Ue/TDjYcYOSerCETwFtxjcWr3lU37xvBBhdThQ4PhlVpZ02lUtC6B8S7DWQLxvh867lCrd66gsy7Ky+IuHKS8EeaqSLN1aY9G4rDNaCKAcCkxTSlnQkG2x26NGVoh4M1oPNpAmNcuWOyDBBngYKLsj5qn7kwB6SaLq99f+f13JUpXAHHSIwaNcJaII8GIfvDDsGXt5YtUyJkXOwhZEdXC8K3lRHVEcVMyekagLmDbEI35jMc7GIm+pRu4QjGpoLlZbXoRUGj0ljkMuOmNxUVuFkfSLZJzvJ+kv5/r8y4+n7QX7rEp9kRfqTvHOe1oOFq5WEplQykyxG4CSvruFDzM8pCgm9tTxi7YhYago0USlqYI1MGsNuPwko5T/yR3+wVwpF6KD8JL9quLE0ejf8ARh09ZRBCcwuYHq4Ik9c6mWYAKeYV0QvF7lvUszwwIYqEK/EuV3mKpTf+/EDJWbqeWH9Svz/YdHbI9w+SMsG88QseUSV4zfMwFsQW8wcJxeIpyR2JfeZU1S7g1j3i4Fmh7inQLmKkb2dk3zLWYAU3XMyywlQ1PNUSMuLtHiVp1tyVDr6VPY/sFTLD4vbeAhxVt5l2MlX1/wCZfyyszK942DIS1auRz5nrhNhGZZ0RIDXDopZdi3a0g+Y6Sbo0fUI5cDd+OowSlcyheUU0cJerlURqcruNXQ/E2iANdc/aApX9heva3VMfeOV09y2igvzVj+SZIMROcy0wi1Fvy8SpABjELGQgQre0EaB4gGjvcUgCoDKeSmIb8TTYyStYd6U2SK3YB9VX/JRZ3X5w/A/WBX9hApgF0LZ5WfZIgFfUk+4RAV3CgorOpuzct8Idd1oYyDZZSBmRigZcGTjFlarTHSVha0gwPUrLDs1BoI/YwpXsgEpmuIEmNQqq3EwLLL4YJZNHL00fYv3/ALVTfqXI+0Ng+A+SUo4GE6YSjrmKoukLslMMr5Hi49UH7aGPSX/UCAnha+4QcwXA/HRcte+LFeFa8zU1jCBOK6q7hz1hORRpwW/8ictbFYWReIABV8zF1HTIlEwEBAQ6EDx/ZYtUAfNVQEbTElWU4eGaGNgh0R61EKzlHOMkuRdqEq2PIJvQJGBN2YGU/wDJfLVqgpXdzQ282qUvgo1HTSUTkIOJuVKqzF9RGzEXl/z8w/tEOcl4Uwy737ujT+Ii8Gg5uArsvs8PmIxJ5hit8SwBdwyX3TBoVMck9yKW+JWUt5joCZ4L9YwLZDm/zMEvld+IYI0SkMLh5f7gkNB7EF6HH0jcvvE0wlg/ki8tto/Ayts1AsuHS5xrMSGM0wIAxuYloriCKaqVLQYRTvtuv+ymYDHSW5HybChR+fZiItjtBj+yoQbjgc8p0DlOA5uBMVvA8nxdlr2ssQGxxCDCadVLOISuIdncd948j0igtE4dymskYW2+0EFxI3G1bHrDDwxMCuXg8rxMdWc0a8F/LAlAmc5V7b3EVWjcux2Fg5pi7iKhbXPctvuOYL8QQD5INl/1clXmY05dE+4l8Ere31Zj7zKZn5cjAI2klvvt5PtUbxTbwxkRYDpLIhWl8VLE3mBxK1VapX+LHCnAhMRaDmEg9yBpTUp9PWa6T0ZhdTB3g81weWYioyFs9Vy+0A9CiOlOgCGsVU2mCebb9o3lV21OWFHDAaPkAvN226Be4Kbt59bf3RUqMGF6rZLTNhVPQblAtxBEsb/+qZeh9ppDtCvazFvX1h9aKi2hiz9dPtKSZVqnV5Y2ONrmfcxUF0GiGlPc4ga5e5jhhg3Yilul/wCVL0sZ1zGsoiipdwK6IbEPEOGoOtRrZEQQqkEAjtEE+45lRu+AShbnNnK+V3HbghVqhiKDoceIV201cswex+YBhj0gOIFGYUuJjqLpj3inkVq+qGUojssX1zjs0zi9ZD8RBQ/1NUJFDhLKurU36XMwLS9//BQ5hQ82U8PPhn0jWx8h9UGfUsySAq1rK+WJ5ViMC5gOkBCwZL4jqCu1I4lAKyF/TkYcNVLM0rcHTlfMEFgesrwk8zEAO85GG6AIja38fmPQnxF/WYIFSvef8gCT3ibxEzGiU054D3UlvrzzawrA+8Ax5lBKcVMOEcQKLzixEp4ZW494Vimrm76CQ9EyRHEZxvVuT1uN5KiziC6Xp+sGz/8AK0TMPueLSvfAa0TIKqtqu2GTO5T6xz4mSoXSTlW2YUMUTA8zqPrcuRBZPGJhFwnD3LHBWIVqzPcA8PV5lA6qAlDns3FLrG9l8X8zKkdTgB53AGFTQw6Ud9xRZGBwmx72wDTHJemU43zNsQykILgPpKK9VYhrgzBhefeUkziAq7+kay5i4jQ3hiwwNmBzO+jzrq1S/wCXBcYLwU3U0dB9DPJM5K3tgtuEDDMuIFmJWUwC7wH3jUsteJ4JlkRNpZs376mZr7R34ggVK85h85SU5Ux1Ot08dxFKqVrBp9AJaRC7gRb94zxWIru0uicjMLy8wQA6K0dfm8yhhhsZYbqUeM6hVcQA05iiYBxoTJnbLD6S8k96mmJlhMkI0ocI8MwwMuFpgHX5CcfzlabJYss9x9jaRmMAWttX98amBA5updqUPD4lemIBs0R0113GRRt3AI6gDDj0maLay4QZ/EAudzUu5fHAfZgoTe8wjKcZiFb0HtC2BmEvRe4zpMG+mogFsaxxGCAesSk48Ssz9HcCKK+j/qQis21e02/dlBd4rKVOOQxrJb4hrDmXmg+kLXP3hdFVBhfBMY56I0rGzhvUK4ftGhImmJU+AWsl0cph6VzAH9ftRYj6Rv1R0EtWZCwrhcY7ZXy1xAW8xbdS5qpQAxiNjuB4IMmMyxdioWhQGI3aAPZgDMuhABAI30jdrnOZWxi7UR9H/JXojWJd5Kwu/T6QLqUO2FTlczg5/KhhnEshfeBd2sR+qsg2mAebgXL9/WT7qnmCbRtowGpeRKX7wxtmi8HM96AGpS0i6rM5KzAo9I8dw6mwXjuoU2sAO7ioiNMphC3N8/J7jolxEzOOM8G/KjuCDQxMzOVnFUDIgYtMxAe4UtwWDiBdGIVhS+DmE3WP9yjBpVfUJYcxDwhpwwo74jE20F6BTfuRcAfZEVmFwBKOO6gDRzDAcqJ7oYotEwZw+8sC4KxOM2t40fPtCCKltlMv1T6QOYAtMbGjZWaihrZt/wAmFLwP5ihnT0ZYAq5q5txCjxPfUcsQYvPiFXjPlmL1GksYfBUtAbA8IxdjH7UtqsvMUgBjmG5ez4gVr8wCY3LG8S8RRFbAnL+ZQavsgxY/wHQwdJEp8wLW5ia+PFkMAvJEhEtySoB44iQDy6lQrH+kuA0u566fpBTQOY00NbAE19UPrAvpD0q35mk8MxusYtnhLZh90BmJZzoVxMGtQb3qBv8A7NuIauXqFAvXULZ5/MAPWLTjMtrUFxVU1UM5MRfVCVvX3mmcncxa6i35RsFAUNwx4lNxXa/MzWIdNRhPxKLR1MlxR9pFrLn7j7x0tUiODX1i5uKlzQiy/W5t63GIO3LFbUXFSU6nawfmAhoXZ/IYJVqwGufaBh1OMUwGYap5ilV33EzE5fEsvkS8RwNzJ/A3QWZlK1rqKpRhiwGphkJYrcCpk/whoCdqwUM43qHbMysIBkQL1oL6kBgI0wyPifY8wL5yzWAoDEJDGfdfxEVPLqy4BjIRZ17QS1CBvDz4hxIOIbTUzSiq6GD8ymYUjvXwoCmpnhhwZi9GI5wTXUGaisreu2JvpDHh3EyZmtyysMNN6IaYUZS+DB5+0AWypk4aitgl2wRgYx95114lYczJKjsY2GLlJ9AcRHJrkWLmZKmPC9wbLio7jUczUtGI29X2MyFxcEUr6xBbeIwKZKhK1PZEyKiHg8XFBfyxg1buxT5Q3VXELDicC55nAODCcwa0H8xZw4I43Guyw+rlhCYGK2n7Q9Y6LcwavMFD3zLbupTOKhSXdVBArmLZucmZSzOSLWDE25ZeKuXwllCZp1Cmr7wXoG8TIgJMMJdYYzNnMw9WJR7QKLMF7TP2ZyA8saaFkcFgSvSAlbC/VgNfPERig32RrEgum6j3UIZVWZYyRQOdygWkHFcQgqTVbGa7tmIIMvSUKDU51HJ1C6YcEGOoLqNvM1lqF25iTGWvQ5l1LD5lBfdxwrFzq9QuyGev4YveIaszdqDdS44JU3EOJpl3AA3mXq+J4sQyZKhkolcWZPrftDs6Nr+Z3I6jQ5PE9KMPvGHThqrjkkEPTn7QS4FVjs/WyQA5MsGiszJszFTnELMpQG/iIagHE/8ANrFpcFrxDgwsa3DZvqKRmRW4zFxxUV6QcjjB8w02VwgTqJlRU23EsUuoWniWDULMwNrmyZYHvC39FzY8bgakmpkftGY/WFvWIs1cPwszkGL3rfxHtM1sg3nFTPFs/dGT0PMo/ES8taHqssg9UjK+7mbBBzVQoXcQlLMFPpFhpz+Wa4h4Yl2HUPEG4Pf4jnDBHDIkMZitpVMLpDHrAmnLtmsl3LKcamjRmJFAXzLOCLEDLWxmoijX0gKlmDKzcFCs7l41DkgXdR4qKtbheEvsuXIQ10JT9yAEPaGULi5XjFX8sDa3B1KUQwHy170+kCBRC9XGpLGF0DncAnxnjzBkVt9Sy56Nw8qgTNgiCKsVGCYU4ioriHUsIqbHpB1GnaIO/hjGqLxK2gvuRCHmPlG4R1XXMAYi3uLqYNViLW9SER3z4jR5jozLDrHEKPMHm57CMPwx6dPCEkKu4Sr5T7sX5AjGuB3YGH5uL2hluPfUWMMdOZQWMMrHY8Xo6Jk6mjjMeErzKeCYJuZAalc9xvpg2uPrcytk0ehDKHJzFZ3kQ3N44gltsvMTBSLmC3ua9y7s/gohNgl1qyQuC/OMi9S1YlA3Aq4jSWNbql/aIssB6OYo7mAmysvHljN0xdYC41lvK+VfmdK1PSDuorMRmHAvJ5PBF0MtquIMTTn+AavUCPpMW+ZszOiZC455lKPLBR0KnGIszW48NuIZfxG6WH5o2p/FI9+kLj/h+aJGoRDxFU11DC1IUxL5esLEdOoVCQUbUwnLt93Ymdm1xMPltXHrBrSmvnF+1yoX6sVXTO6jl3FsqYFtYHbNlatvcUQfxDqEja2YmPvxLam5uWG3ULrmZb3DEb11pjmXjdO5dZMw5ZbSgit8T5IqJd1LOYatlQEC5I76TP0itJcRxK1OFpi3a7IRdYmQplWqLJkYWvc/CJfN8yimaDmUdKM9fq9IIRMUtT7E/Rjh84T32wVYhgFYijgmDVx2XUA+iVV1zLlGFGAmow8jcW08AeJpuDFgpmC5m6YqHRD84+DMHRLozgl1xMfMcIl0biqZqoDGIlkdxbOfwSqzq5nlzODUuZfsIPkwUviLZ1hX0g5Rg40NfU94eWGCzUvO5YuYQZW4cEIQoDUAPU6gBp944e41SzXMQuyHxqXnJQQ2J+s6JmAtZxkiF/McoaLuKxW0svFrDJk+0KvEAG4caYlFnEulNoZiXv6R0ibYqILV8S8Hc0O0lGF14ierHJ1z5ggovggN3Wu4Ls+0peYl5yn2X6SoFZiQa7PCT3SFiomVdr3DMHO78RM4gOWXR3A5SrD0nrftOPETkbjdO2ezBznLNiZWiMVNxxym61zxMTcuCUJwFagxVmWOdQGMVD5MTl/hRqbHCxye8dtbhuDRcFHx1DIE9Jass2vEDsErhl4q3siGa355mWLuOcXB2I18e8zvrXdlwXOW0ugsfe/ohqpbdQ1E2gEF6jzAMWcDC91iZ9E36JSzfOZdZQrh6yjhh8zPdSwO0c3LjS73GlviD1TbNIsZr1nF+JQs6y48RnhFULA8zXxFu0NQcA4g3QYYCPnzm5155lKTniUujE2BDxAIt4nolgPDGtWtXua+1RaMzoApr6nv/HvLHpGvK3eCXmGCAFKhdxNtWQuE2hZFpeIoRC+7gW8HpEheyUAMp5gEtajeHHiJTLxDwcxXeo3dYxiKqCrLuDtCxnUN5kNVebmQhyhKzuHxqZZjiVSkhiBQwXOQvEMOIvMuTUsY3L16IzWoRuQsIQ8V3qqfrmKRahflX5hdWyuXmIRQLuZFW69IqSsVKmlp9IC95X5EBE0EHNeYUK4nO7ILQqAKWjzLZod84iZA8EwFiaQZvMxzOTVxWe0wZhDjrPUFdkOLeos4jTMY1Gaxbi1NvEeJ3Q3dzNsQlaMS1OYw42C9VKYzKcMD1ciLfi37S6KxFZZcRz5gg+sqEIH1llXMOy/BEDJeNkEI1rzLuWYh8cgxyu77qWqlVLdq+xLMVAC6Pdju+Yo1MKdQ2vbAhGG9TSJGWHiD+XmFV5YiSXWQ3MCYdZxgi8LiTE5sjazuD/Zm929QyBcBPVwWJdZoxt/1QhX2iRy94i1+WNpbtmAOPSIllr3Ma73DrKTAWp5qXV5OckBn0ZluKC+24Lm7emIVO/XMo446lZuonmuJyBLd2E5OozlzNjmpYLW5a8z0QwSvECKHz3FzQdXEjLbMOg3LlcMMXFEf4LVhiQHc8FzKqZsbPabWNxXbU7aigO9eZkWiGVPszQLgl2yV1F2H5+YFDmPV5gNmkmUmb3HheJxGzY6nsqN8EG2rxHmBjqYqvEHGWESZR0ylNKg8w6hdkdfxoTnPjDU0hDOX8Wz0f4diaE0Yxs9Zv/B/J/M/PPl/B8P4nGOz+D7J/g6/hyQ4m3qm8NR49f5D7Ccpzn2UNPSf/9k=';
+function welcomeView(){
+ var w=mk('div','welc');
+ var facts=[['person','Name','Arin Nadhrah binti Mohamad Sapawi'],['hash','Index number','2026042440291'],['idcard','Identity card number','060304-13-0272'],['school','Campus','Institut Pendidikan Guru Kampus Batu Lintang, Kuching, Sarawak'],['group','Group','PISMP TESL SK 2026/2030'],['R','Code and course name','EDUP6023, Technology for Teaching and Learning'],['cap','Lecturer\'s name','Dr. Siaw Nyuk Hiong']];
+ var note=function(c,sz){return '<svg class="deco '+sz+'" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><g class="a-note" style="'+(sz==='d2'?'animation-delay:-1.4s':'')+'"><path d="M18 36V12l18-4v22" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="36" r="6" fill="currentColor"/><circle cx="30" cy="30" r="6" fill="currentColor"/></g></svg>'};
+ var staff='<svg class="staff" viewBox="0 0 220 24" aria-hidden="true" focusable="false"><path d="M0 4h220M0 8.5h220M0 13h220M0 17.5h220M0 22h220" stroke="#8FB0D6" stroke-width="1" fill="none"/><g fill="#2C5A99" stroke="#2C5A99"><ellipse cx="30" cy="17.5" rx="3.6" ry="2.8" stroke="none"/><path d="M33.4 17.5V3" stroke-width="1.6"/><ellipse cx="66" cy="13" rx="3.6" ry="2.8" stroke="none"/><path d="M69.4 13V0" stroke-width="1.6"/><ellipse cx="102" cy="8.5" rx="3.6" ry="2.8" stroke="none"/><path d="M105.4 8.5V-4" stroke-width="1.6"/><ellipse cx="138" cy="13" rx="3.6" ry="2.8" stroke="none"/><path d="M141.4 13V0" stroke-width="1.6"/></g></svg>';
+ w.innerHTML='<section class="hero big"><div><h1>You must be excited to learn about today\'s unit!</h1><p class="lead">Year 6 English, Unit 7: Music and Song</p><span class="bars"></span><span class="bars"></span></div></section>'+
+ '<div class="who" role="separator"><span>'+note('','w1')+'Who made this website?'+note('','w2')+'</span></div>'+
+ '<section class="meet" aria-labelledby="mt"><div class="meet-photo"><img src="'+PHOTO+'" width="360" height="433" alt="Miss Arin, smiling, in a grey headscarf and a black blazer">'+note('','d1')+note('','d2')+'</div>'+
+ '<div class="meet-info"><h2 id="mt">Meet, Miss Arin!</h2>'+staff+'<ul class="facts">'+facts.map(function(f){return '<li><span class="fi">'+ic(f[0])+'</span><span><span class="fl">'+f[1]+'</span><span class="fv">'+f[2]+'</span></span></li>'}).join('')+'</ul></div></section>'+
+ '<p class="go"><button type="button" class="cta big" id="start">Click here to open the website</button></p>';
+ $('#start',w).onclick=function(){go('home')};
+ return w;
+}
+
+function readingView(){
+ return moduleView('R',[
+ warmStep('R'),
+ {t:'Read',p:1,r:function(c){
+  c.innerHTML='<p class="muted">These texts were written for this courseware. Press a word to highlight it. Try to highlight the words that rhyme.</p>'+
+  '<h4>An interview</h4><div class="withart"><div id="iv" style="flex:1 1 20rem"></div><div class="artcol wide">'+interviewSvg()+'</div></div><h4>A song</h4><div class="withart"><div class="lyrics" id="sg" style="flex:1 1 18rem"></div><div class="artcol">'+singerSvg({skin:'#E4A87C',hair:'#3A2A22',shirt:'#6552B8',tint:'#E6E2F6',note:'#6552B8'})+'</div></div><p><button class="btn ghost" type="button" id="clr">Clear highlights</button></p>';
+  var iv=$('#iv',c);
+  [['What music do you like?','I like pop and rap, but folk music is my favourite.'],['Why folk music?','The songs tell stories about people and places.'],['How do you write songs?','I think of a story first. Then I choose the tune and the rhythm.'],['What are your plans?','I am going to tour next year and promote my music online.']].forEach(function(x){
+   iv.appendChild(mk('p','qq','<span class="qtag">Q</span>'+hlWords(x[0])));iv.appendChild(mk('p','aa',hlWords(x[1])));
+  });
+  $('#sg',c).innerHTML='<span class="lab">Verse 1</span><div>'+hlWords('The rain falls down on the window pane,')+'<br>'+hlWords('I tap my drum to the sound of the rain.')+'</div>'+
+  '<span class="lab">Chorus</span><div class="ch">'+hlWords('Boom, boom, boom, hear the beat,')+'<br>'+hlWords('Boom, boom, boom, tap your feet!')+'</div>'+
+  '<span class="lab">Verse 2</span><div>'+hlWords('The sun comes out and the sky is blue,')+'<br>'+hlWords('I play my drum and I sing for you.')+'</div>';
+  wireHl(c);
+  $('#clr',c).onclick=function(){$$('.w',c).forEach(function(w){w.classList.remove('hl');w.setAttribute('aria-pressed','false')})};
+ }},
+ {t:'Words',p:1,r:function(c){
+  c.innerHTML='<p class="muted">Press Hear to listen to a word. Press Meaning to read what it means.</p><div class="vocab"></div>';
+  var g=$('.vocab',c);
+  [['accordion','A musical instrument you squeeze and press keys on.','accordion'],['classical music','Calm, old-style music, often played by an orchestra.','classical'],['folk music','Traditional music from a place or its people.','folk'],['pop music','Popular music with a catchy tune.','pop'],['promote','To tell people about something so they will like it.','promote'],['rap','Music where the words are spoken to a strong rhythm.','rap'],['rhythm','The pattern of beats in music.','rhythm'],['tour','To travel and perform in many places.','tour'],['tune','The notes of a song that you can hum.','tune'],['perform','To sing, play or act for an audience.','perform']].forEach(function(x){
+   var d=mk('div','vrow');
+   var vp=mk('span','vp',pic(x[2]));
+   var b=mk('b','',x[0]);
+   var vb=mk('span','vb');
+   var sp=mk('button','mini','Hear');sp.type='button';sp.setAttribute('aria-label','Hear the word '+x[0]);sp.onclick=function(){speak(x[0])};
+   var p=mk('span','vm',esc(x[1]));p.hidden=true;
+   var tg=mk('button','mini','Meaning');tg.type='button';tg.setAttribute('aria-expanded','false');tg.setAttribute('aria-label','Show the meaning of '+x[0]);tg.onclick=function(){p.hidden=!p.hidden;tg.setAttribute('aria-expanded',String(!p.hidden))};
+   vb.appendChild(sp);vb.appendChild(tg);
+   d.appendChild(vp);d.appendChild(b);d.appendChild(vb);d.appendChild(p);g.appendChild(d);
+  });
+ }},
+ {t:'Interview or song?',p:2,r:function(c){
+  sortGame(c,{
+   items:[{t:'Has questions and answers',b:'i'},{t:'Has a chorus',b:'s'},{t:'Has rhyme and rhythm',b:'s'},{t:'Has different verses',b:'s'},{t:'A person talks about their interests',b:'i'},{t:'Tells a story',b:'s'}],
+   bins:[{id:'i',l:'Interview'},{id:'s',l:'Song'}],
+   h:'A song has verses, a chorus, rhyme and rhythm. An interview is questions and answers.',
+   r:'In an interview, one person asks questions and another person answers. A song has verses that tell a story, a chorus that repeats, and rhyme and rhythm.',
+   ok:function(a){a.innerHTML='<p>Now try the checkpoint in step 5.</p>'}
+  });
+ }},
+ {t:'Checkpoint',p:3,r:function(c){
+  quiz(c,[
+   {q:'Which part of a song repeats many times?',o:['The verse','The chorus','The interview','The title'],a:1,h:'It is the part you sing again and again.',r:'A verse tells the story. The chorus is the part that repeats several times.'},
+   {q:'An interview has…',o:['a chorus','rhyming lines','questions and answers','a tune'],a:2,h:'Think about a chat where one person asks and one person answers.',r:'An interview is a conversation with questions and answers.'},
+   {q:'What does “rhythm” mean?',o:['The pattern of beats in music','A kind of dance','A loud voice','A singer'],a:0,h:'Clap along to a song. What are you clapping?',r:'Rhythm is the pattern of beats. When you clap along to a song, you clap the rhythm.'}
+  ],function(s,n,host){finishModule(host,'R')});
+ }},
+ reflectStep('R')
+ ]);
+}
+
+function listeningView(){
+ return moduleView('L',[
+ warmStep('L'),
+ {t:'Listen and explore',p:1,r:function(c){
+  c.innerHTML='<div class="withart"><p class="muted" style="flex:1 1 16rem">These short tunes are made by this page, so no copyrighted music is used. Press Play and think about how each one makes you feel.</p><div class="artcol">'+listenerSvg()+'</div></div><div class="clips"></div><p class="muted">Teacher: you can swap these for your own royalty-free audio. See Teacher\'s notes.</p>';
+  var g=$('.clips',c);
+  [['happy','Happy'],['calm','Calm'],['sad','Sad'],['lively','Lively'],['exciting','Exciting']].forEach(function(x){
+   var d=mk('div','clip');
+   d.innerHTML='<b>'+x[1]+'</b><button class="btn play" type="button">Play</button><span class="muted">'+CLIPS[x[0]].cap+'</span>';
+   $('.play',d).setAttribute('aria-label','Play the '+x[1].toLowerCase()+' tune');
+   $('.play',d).onclick=function(){play(x[0])};g.appendChild(d);
+  });
+ }},
+ {t:'It makes me feel…',p:2,r:function(c){
+  c.innerHTML='<p>Build a sentence about a tune you like.</p><div class="row"><label for="f1">It makes me feel</label><select id="f1"><option>happy</option><option>calm</option><option>lively</option><option>sad</option><option>excited</option></select></div>'+
+  '<div class="row"><label for="f2">It is really</label><select id="f2"><option>catchy</option><option>cheerful</option><option>lively</option><option>slow</option></select></div>'+
+  '<div class="row"><label for="f3">It reminds me of</label><select id="f3"><option>a holiday</option><option>my family</option><option>a party</option><option>the rain</option></select></div><div class="out" id="o" role="status"></div>';
+  function u(){$('#o',c).textContent='It makes me feel '+$('#f1',c).value+'. It is really '+$('#f2',c).value+'. It reminds me of '+$('#f3',c).value+'.'}
+  ['f1','f2','f3'].forEach(function(id){$('#'+id,c).onchange=u});u();
+ }},
+ {t:'Match the music',p:2,r:function(c){
+  c.innerHTML='<p>Listen to each piece. Which kind of film does it fit?</p><div id="mg"></div>';
+  matchGame($('#mg',c),{
+   rows:[{clip:'scary',l:'Piece 1',a:'Scary film'},{clip:'comedy',l:'Piece 2',a:'Comedy'},{clip:'romantic',l:'Piece 3',a:'Romantic film'},{clip:'action',l:'Piece 4',a:'Action film'}],
+   opts:['Romantic film','Action film','Comedy','Scary film'],
+   h:'Slow and smooth music is gentle. Low, strange notes are for something frightening.',
+   r:'Music creates atmosphere. Fast, strong notes fit an action film. Short, funny notes fit a comedy. Slow, smooth music fits a romantic film. Low, strange notes fit a scary film.'
+  });
+ }},
+ {t:'Checkpoint',p:3,r:function(c){
+  quiz(c,[
+   {q:'Listen. What mood is this tune?',clip:'happy',o:['Happy','Sad','Sleepy','Angry'],a:0,h:'It is fast and bright.',r:'Fast, bright notes that jump up and down usually sound happy.'},
+   {q:'Listen. What mood is this tune?',clip:'sad',o:['Lively','Exciting','Sad','Happy'],a:2,h:'It is slow and low.',r:'Slow, low and quiet notes usually sound sad.'},
+   {q:'Listen. What mood is this tune?',clip:'calm',o:['Exciting','Calm','Scary','Lively'],a:1,h:'It is slow and soft, but not sad.',r:'Long, soft, gentle notes sound calm and relaxing.'}
+  ],function(s,n,host){finishModule(host,'L')});
+ }},
+ reflectStep('L')
+ ]);
+}
+
+function writingView(){
+ return moduleView('W',[
+ warmStep('W'),
+ {t:'will and going to',p:1,r:function(c){
+  c.innerHTML='<div class="ex"><div><span class="k">will: a prediction</span>'+ic('star')+'<p class="s">One day you <mark>will</mark> be famous.</p></div>'+
+  '<div><span class="k">going to: a plan</span>'+ic('cal')+'<p class="s">I <mark>am going to</mark> play guitar tomorrow.</p></div>'+
+  '<div><span class="k">going to: we can see it now</span>'+ic('cloud')+'<p class="s">Look at the clouds! It <mark>is going to</mark> rain.</p></div></div><h4>Practice</h4><div id="qz"></div>';
+  quiz($('#qz',c),[
+   {q:'I think robots ___ play music in the future.',o:['will','is going to','are going','did'],a:0,h:'This is a prediction.',r:'Use will to make a prediction about the future.'},
+   {q:'Look at the dark clouds! It ___ rain.',o:['will','is going to','go to','was'],a:1,h:'We can see the clouds now.',r:'Use going to to make a prediction from something you can see or hear right now.'},
+   {q:'Tonight I ___ practise my drums. I planned it.',o:['will','am going to','is going','going'],a:1,h:'It is a plan.',r:'Use going to for plans and intentions.'}
+  ],function(s,n,host){host.innerHTML='<p class="fb good">'+ic('tick')+'<span>Practice finished. Try the next step.</span></p>'});
+ }},
+ {t:'im- and dis-',p:2,r:function(c){
+  c.innerHTML='<p>Put each word in the right box to make its opposite. Hint: im- comes before p or m.</p><div id="sg"></div>';
+  sortGame($('#sg',c),{
+   items:[{t:'honest',b:'d'},{t:'polite',b:'i'},{t:'perfect',b:'i'},{t:'appear',b:'d'},{t:'mature',b:'i'},{t:'respect',b:'d'}],
+   bins:[{id:'i',l:'im- (impolite)'},{id:'d',l:'dis- (dishonest)'}],
+   h:'The prefix im- comes before words that begin with p or m.',
+   r:'Add im- before words starting with p or m (impolite, imperfect, immature). Other words often take dis- (dishonest, disappear, disrespect).',
+   ok:function(a){a.innerHTML='<p class="hand">impolite, imperfect, immature, dishonest, disappear, disrespect</p>'}
+  });
+ }},
+ {t:'Future times',p:2,r:function(c){
+  c.innerHTML='<p>We use the <b>present simple</b> for timetables and events in the future. Choose the times, then make your sentences.</p>'+
+  '<div class="row"><label for="t1">The bus <b>leaves</b> at</label><input type="time" id="t1" value="06:30"></div>'+
+  '<div class="row"><label for="t2">We <b>arrive</b> at</label><input type="time" id="t2" value="12:00"></div>'+
+  '<div class="row"><label for="t3">The concert <b>starts</b> at</label><input type="time" id="t3" value="19:00"></div>'+
+  '<div class="row"><label for="t4">The concert <b>finishes</b> at</label><input type="time" id="t4" value="21:30"></div>'+
+  '<button class="btn" type="button" id="mkS">Make my sentences</button><div class="out" id="so" role="status" hidden></div>';
+  $('#mkS',c).onclick=function(){
+   var S=[['The bus leaves','t1'],['We arrive','t2'],['The concert starts','t3'],['The concert finishes','t4']];
+   var o=$('#so',c);o.hidden=false;
+   o.innerHTML=S.map(function(s){return esc(s[0])+' at '+esc($('#'+s[1],c).value||'…')+'.'}).join('<br>');
+   say('Sentences made.');
+  };
+ }},
+ {t:'Lyric builder',p:2,r:function(c){
+  c.innerHTML='<p>Finish the verse. The words at the end of lines 1 and 2 should rhyme, and so should lines 3 and 4.</p><div id="fg"></div><h4>Now write your own verse</h4><p class="muted">Need ideas? Look at the pictures.</p><div class="ideas">'+[['rhythm','drum'],['day','sun'],['rain','rain'],['pop','stars'],['moon','moon']].map(function(x){return '<figure>'+pic(x[0])+'<figcaption>'+x[1]+'</figcaption></figure>'}).join('')+'</div><textarea id="own" rows="5" aria-label="Write your own verse" placeholder="Write four lines here…"></textarea><p><button class="btn" type="button" id="rh">Rhyme helper</button></p><div class="out" id="rho" role="status">Write your lines, then press the button.</div>';
+  fillGame($('#fg',c),{
+   lines:['We clap our hands and tap our ___','We sing along to the happy ___','The music makes us laugh and ___','We sing and dance all through the ___'],
+   ans:['feet','beat','play','day'],tiles:['feet','beat','play','day','moon','cat'],pics:{feet:'feet',beat:'beat',play:'play',day:'day',moon:'moon',cat:'cat'},
+   h:'Look at the end of each pair of lines. Which words sound the same?',
+   r:'Rhyming words have the same ending sound: feet and beat, play and day.',
+   okHtml:'<p class="hand">Feet and beat rhyme. Play and day rhyme. You built a verse.</p>'
+  });
+  $('#rh',c).onclick=function(){$('#rho',c).textContent=rhymeHelper($('#own',c).value)};
+ }},
+ {t:'Checkpoint',p:3,r:function(c){
+  quiz(c,[
+   {q:'Look at the sky. It is black and heavy. It ___ rain.',o:['will','is going to','go','did'],a:1,h:'We can see the sky now.',r:'Use going to when you make a prediction from something you can see.'},
+   {q:'The opposite of “polite” is…',o:['dispolite','impolite','unpolite','nopolite'],a:1,h:'“Polite” begins with p.',r:'im- comes before p or m, so polite becomes impolite.'},
+   {q:'Which word rhymes with “day”?',o:['play','feet','moon','cat'],a:0,h:'Say the words aloud. Which ends with the same sound?',r:'Rhyming words end with the same sound. Day and play both end with the sound “ay”.'}
+  ],function(s,n,host){finishModule(host,'W')});
+ }},
+ reflectStep('W')
+ ]);
+}
+
+function speakingView(){
+ return moduleView('S',[
+ warmStep('S'),
+ {t:'Plan',p:1,r:function(c){
+  c.innerHTML='<div class="withart"><p style="flex:1 1 16rem">Choose a song you like. It can be any song. Plan your talk with the starters.</p><div class="artcol">'+singerSvg({skin:'#F1C9A5',hair:'#6A3B22',shirt:'#2C5A99',tint:'#DCE9F8',note:'#2C5A99'})+'</div></div><div class="row"><label for="ty">Type of song</label><select id="ty"><option>pop</option><option>rap</option><option>classical</option><option>folk</option><option>traditional</option></select></div><div class="chips" id="sk"></div><label for="pl" class="sr">Your notes</label><textarea id="pl" rows="6" placeholder="Press the starters above to build your notes…"></textarea>';
+  ['It is a ___ song.','I chose it because ___.','It makes me feel ___.','It reminds me of ___.','The song is about ___.'].forEach(function(s){
+   var b=mk('button','chip');b.type='button';b.textContent=s;b.onclick=function(){var t=$('#pl',c);t.value+=(t.value?'\n':'')+s.replace('___','…')};$('#sk',c).appendChild(b);
+  });
+ }},
+ {t:'because / but / so',p:2,r:function(c){
+  quiz(c,[
+   {q:'I like this song ___ it makes me happy.',o:['because','but','so','or'],a:0,h:'Which word gives a reason?',r:'Use because to give a reason.'},
+   {q:'It is a slow song, ___ I still like it.',o:['because','so','but','and'],a:2,h:'The two ideas are different.',r:'Use but to join two different ideas.'},
+   {q:'I love dancing, ___ I listen to it at parties.',o:['but','so','because','if'],a:1,h:'The second part is a result.',r:'Use so to show a result.'}
+  ],function(s,n,host){host.innerHTML='<p class="fb good">'+ic('tick')+'<span>Now you can join your ideas. Go to the next step.</span></p>'});
+ }},
+ {t:'Record',p:2,r:function(c){
+  c.innerHTML='<p>Record a talk of up to 1 minute. <b>Your voice stays on your device.</b></p><div id="vn"></div><p class="muted">If recording does not work on this page, use your phone\'s voice recorder instead, then continue to the checklist.</p>';
+  voiceNote($('#vn',c),60,'Hint: the microphone is blocked or not available here. Use your phone\'s voice recorder, then tick the checklist.');
+ }},
+ {t:'Self-check',p:3,r:function(c){
+  c.innerHTML='<p>Listen to your recording. Tick what you did.</p><div class="ck"><label><input type="checkbox"> I said what the song is.</label><label><input type="checkbox"> I said why I like it.</label><label><input type="checkbox"> I used because, but or so.</label><label><input type="checkbox"> I spoke clearly.</label></div><button class="btn" type="button" id="fn" disabled>Finish speaking</button><div class="after"></div>';
+  var boxes=$$('input',c),fn=$('#fn',c);
+  boxes.forEach(function(b){b.onchange=function(){fn.disabled=!boxes.every(function(x){return x.checked})}});
+  fn.onclick=function(){fn.disabled=true;var a=$('.after',c);a.innerHTML='<p class="fb good">'+goodHtml()+'</p><p>You are ready to speak.</p>';finishModule(a,'S')};
+ }},
+ reflectStep('S')
+ ]);
+}
+
+function finalView(){
+ var w=mk('div','c-F');
+ w.innerHTML='<h1>Show what I know</h1><p class="lead">Ten questions about the whole unit. Take your time.</p><section class="sheet" aria-label="Quiz"><div id="fq"></div></section>';
+ quiz($('#fq',w),[
+  {q:'Which part of a song repeats many times?',o:['Verse','Chorus','Interview','Title'],a:1,h:'You sing it again and again.',r:'The chorus repeats. A verse tells the story.'},
+  {q:'An interview has…',o:['questions and answers','a chorus','rhyming lines','a tune'],a:0,h:'One person asks, one person answers.',r:'An interview is a conversation of questions and answers.'},
+  {q:'Which pair rhymes?',o:['blue / you','song / sing','drum / drink','beat / bat'],a:0,h:'Listen to the ending sounds.',r:'Blue and you end with the same sound.'},
+  {q:'I think robots ___ play music in the future.',o:['will','is going to','are going','did'],a:0,h:'This is a prediction.',r:'Use will to predict the future.'},
+  {q:'Look at the dark clouds! It ___ rain.',o:['will','is going to','go to','was'],a:1,h:'We can see the clouds now.',r:'Use going to for a prediction from what we can see.'},
+  {q:'The concert ___ at seven o\'clock tomorrow.',o:['start','starts','is start','starting'],a:1,h:'It is on a timetable.',r:'Use the present simple for timetables: The concert starts at seven.'},
+  {q:'The opposite of “polite” is…',o:['dispolite','impolite','unpolite','nopolite'],a:1,h:'im- comes before p or m.',r:'Polite begins with p, so we add im-: impolite.'},
+  {q:'The opposite of “honest” is…',o:['imhonest','dishonest','unhonest','nohonest'],a:1,h:'Honest begins with h.',r:'Honest does not begin with p or m, so we add dis-: dishonest.'},
+  {q:'I like it ___ it is lively.',o:['because','but','so','or'],a:0,h:'Which word gives a reason?',r:'Because gives a reason.'},
+  {q:'Slow, quiet music usually makes you feel…',o:['calm','excited','angry','noisy'],a:0,h:'Think of a lullaby.',r:'Slow, quiet music usually feels calm.'}
+ ],function(s,n,host){
+  done.F=true;
+  var cm=ORDER.filter(function(k){return done[k]}).map(function(k){return MOD[k].name}).join(', ')||'none yet';
+  host.innerHTML='<div class="cert"><div class="withart"><div style="flex:1 1 10rem"><h2>Music Star</h2><div class="stamp" aria-hidden="true">'+s+'/'+n+'</div></div><div class="artcol">'+singerSvg({skin:'#C98B63',hair:'#2D2A4A',shirt:'#34B3AA',tint:'#FFF3C4',note:'#B5521A'})+'</div></div><p>Your score: <b>'+s+' out of '+n+'</b></p><p>Modules finished: '+cm+'.</p></div>';
+  var b=mk('button','btn big','Back to home');b.type='button';b.onclick=function(){go('home')};host.appendChild(b);
+  var r=mk('button','btn ghost big','Try again');r.type='button';r.onclick=function(){go('final')};host.appendChild(r);
+ });
+ return w;
+}
+
+function safeView(){
+ var w=mk('div');
+ w.innerHTML='<h1>Safe &amp; fair</h1>'+
+ '<h2>Privacy</h2><ul><li>There is no login, and no names are collected.</li><li>The two videos on the home page are played by YouTube in its privacy-enhanced mode.</li><li>Your voice recording stays on your device.</li><li>This courseware follows the principles of Malaysia\'s Personal Data Protection Act 2010.</li></ul>'+
+ '<h2>Accessibility</h2><ul><li>Audio comes with a written caption.</li><li>Text is large and dark on a light page, so it is easy to read.</li><li>Everything works with a keyboard and a screen reader.</li></ul>'+
+ '<h2>Licensing</h2><ul><li>The tunes are made by this page, so no copyrighted music is used.</li><li>The texts and songs are original.</li><li>Textbook content is used only as the school allows.</li></ul>'+
+ '<h2>Credits</h2><p>Tunes: made in your browser with the Web Audio API. Icons: drawn for this page. Videos belong to their owners and are shown with the YouTube player. Fonts: Lexend and Patrick Hand (Google Fonts, Open Font License). Built with the ADDIE model and CASPER design principles. The unit follows the Year 6 English textbook, Unit 7 Music and Song.</p>'+
+ '<h2>Note for teachers</h2><p>Get parental consent before recording students\' voices at school.</p>';
+ return w;
+}
+
+function teacherView(){
+ var w=mk('div');
+ w.innerHTML='<h1>Teacher\'s notes</h1><h2>Learning outcomes</h2><table><tr><th>Module</th><th>Outcome</th></tr><tr><td>Reading</td><td><b>Identify</b> features of an interview and a song.</td></tr><tr><td>Listening</td><td><b>Match</b> songs and music pieces to moods.</td></tr><tr><td>Speaking</td><td><b>Present</b> a short talk about a favourite song.</td></tr><tr><td>Writing</td><td><b>Compose</b> a new rhyming verse.</td></tr><tr><td>Grammar</td><td><b>Construct</b> sentences with will and going to, and <b>state</b> future times using the present simple.</td></tr></table>'+
+ '<h2>Embedded assessment</h2><p>Each module ends with a checkpoint. A correct answer gets a red-pen tick and praise. A wrong answer gets a hint and a retry. A second wrong answer shows a sticky-note mini-lesson. The final quiz gives a score.</p>'+
+ '<h2>Learning flow in every module</h2><table><tr><th>Phase</th><th>In this courseware</th></tr><tr><td>1. Activate</td><td>A warm-up poll or question at the start of each module.</td></tr><tr><td>2. Present</td><td>Illustrated texts, audio with captions, vocabulary and a short grammar explainer.</td></tr><tr><td>3. Practise</td><td>Sorting, matching, sentence builders, a lyric builder and quizzes.</td></tr><tr><td>4. Feedback</td><td>Automatic ticks, hints, retries and mini-lessons. Teacher comments and peer responses happen outside this page, for example through your school platform.</td></tr><tr><td>5. Reflect</td><td>Two short questions and a feeling check.</td></tr></table>'+
+ '<h2>Videos on the home page</h2><ul><li>The page shows one video of a song and one video of an interview, so pupils can hear and see the difference before they start the modules.</li><li>To change a video, open the file in a text editor and paste your own YouTube link at the very top, where it says PUT YOUR YOUTUBE LINKS HERE.</li><li>Watch both videos yourself before sharing the page. Videos need an internet connection, and some school networks block YouTube.</li></ul><h2>Setting up</h2><ul><li><b>Sounds:</b> buttons make small sounds, made by the page. The Sound button at the bottom turns them off. The tunes in the Listening module are not affected.</li><li><b>Welcome screen:</b> the page opens with a welcome message. Pupils press the button to open the full website. The Unit 7 button at the top always brings them back to the home page.</li><li><b>Audio:</b> the tunes are made by the page. To use your own royalty-free audio, replace the Play buttons with &lt;audio controls src="..."&gt; tags and credit the source.</li><li><b>Microphone:</b> some embedded pages block the microphone. If so, students can use a phone voice recorder and continue with the checklist.</li><li><b>Progress</b> is kept only while the page is open. Nothing is stored or sent anywhere.</li></ul>';
+ return w;
+}
+
+var VIEWS={welcome:welcomeView,home:home,final:finalView,safe:safeView,teacher:teacherView,R:readingView,L:listeningView,W:writingView,S:speakingView};
+function go(v){var b=$('.book');if(b)b.classList.toggle('welcome',v==='welcome');show(VIEWS[v]())}
+
+$('#homeBtn').onclick=function(){go('home')};
+$('#fSafe').onclick=function(){go('safe')};
+$('#fTeach').onclick=function(){go('teacher')};
+$('#fSound').onclick=function(){sfxOn=!sfxOn;this.textContent=sfxOn?'Sound on':'Sound off';this.setAttribute('aria-pressed',String(sfxOn));say(sfxOn?'Sound is on.':'Sound is off.');if(sfxOn)sfx('click')};
+document.addEventListener('click',function(e){
+ var t=e.target.closest('button,.w');
+ if(!t||t.disabled)return;
+ if(t.matches('.opt,.chk,.play,.mini,[data-nosound],#fSound'))return;
+ if(t.matches('.row-btn,.tab,.nx,.bk,.unitbtn,.cta,#fSafe,#fTeach,.btn.big'))sfx('nav');
+ else if(t.matches('.chip,.blank,.w'))sfx('pick');
+ else sfx('click');
+});
+document.addEventListener('change',function(e){if(e.target.matches('select'))sfx('pick')});
+go('welcome');
+})();
+</script>
+</body>
+</html>
